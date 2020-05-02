@@ -1,3 +1,6 @@
+---
+weight: 1
+---
 # Hugo Static Site Generator
 
 ## Installing Hugo on Ubuntu
