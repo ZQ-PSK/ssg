@@ -1,3 +1,4 @@
 languageCode = "en-us"
 title = "Marcin Misiak - writing samples"
 theme = "book"
+publishDir = "docs"

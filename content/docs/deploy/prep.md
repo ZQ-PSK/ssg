@@ -1,9 +1,9 @@
 ---
 title: "Preparing for GitHub Pages deployment"
-weight:
+weight: 5
 description: ""
 ---
-# Preparing for GitHub Pages deployment
+# Configuring Hugo for GitHub Pages deployment
 
 1. In the root folder of your repository, open the `config.toml` file.
 2. In the configuration file, search for the `publishDir` setting.
@@ -13,5 +13,6 @@ description: ""
 1. Open the Terminal by pressing **`CTRL` + `SHIFT` + `T`**.
 2. Navigate to the root folder of your repository.
 3. Create a `docs` folder.
-4. 
+4. In the `docs` folder, create 
+5. Commit 
 
