@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docs on Marcin Misiak - writing samples</title>
-    <link>/docs/</link>
+    <link>zq-psk.github.io/ssg/docs/</link>
     <description>Recent content in Docs on Marcin Misiak - writing samples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="/docs/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="zq-psk.github.io/ssg/docs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>/docs/hugo/hugo/</link>
+      <link>zq-psk.github.io/ssg/docs/hugo/hugo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/docs/hugo/hugo/</guid>
+      <guid>zq-psk.github.io/ssg/docs/hugo/hugo/</guid>
       <description>Hugo Static Site Generator Installing Hugo on Ubuntu Hugo offers a few installation methods. The method described in this procedure lets you control the version you are installing and installs it globally.
  Go to the Hugo releases page. Choose a release :  If you are preparing to create a new site, choose the latest release. If you are going to work with an existing site, on the list locate the same release that the site is deployed with.</description>
     </item>
     
     <item>
       <title></title>
-      <link>/docs/vscodium/vsc/</link>
+      <link>zq-psk.github.io/ssg/docs/vscodium/vsc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/docs/vscodium/vsc/</guid>
+      <guid>zq-psk.github.io/ssg/docs/vscodium/vsc/</guid>
       <description>VS Codium Installing VS Codium on Ubuntu  Open the Ubuntu Software application.
 By default, the application is available from the application bar on the left side of the screen. In the upper-left corner of the application window, click the search icon. In the search field that opens, enter VS Codium In the results, click VS Codium. In the application details that open, click Install. In the pop-up that opens, enter your user password and press ENTER.</description>
     </item>
