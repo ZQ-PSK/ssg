@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Hugo Static Site Generator Installing Hugo on Ubuntu Hugo offers a few installation methods. The method described in this procedure lets you control the version you are installing and installs it globally.
+ Go to the Hugo releases page. Choose a release :  If you are preparing to create a new site, choose the latest release. If you are going to work with an existing site, on the list locate the same release that the site is deployed with.">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="Hugo" />
+<meta property="og:description" content="Hugo Static Site Generator Installing Hugo on Ubuntu Hugo offers a few installation methods. The method described in this procedure lets you control the version you are installing and installs it globally.
+ Go to the Hugo releases page. Choose a release :  If you are preparing to create a new site, choose the latest release. If you are going to work with an existing site, on the list locate the same release that the site is deployed with." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/docs/hugo/hugo/" />
+
+<title>Hugo | Marcin Misiak - writing samples</title>
+<link rel="manifest" href="../../../manifest.json">
+<link rel="icon" href="../../../favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="../../../book.min.6df681b0bb21155cba49f6078e3559216772d8e03e780d240c73ea21817ed5e5.css" integrity="sha256-bfaBsLshFVy6SfYHjjVZIWdy2OA&#43;eA0kDHPqIYF&#43;1eU=">
+<script defer src="../../../en.search.min.b8ac474bbd994923d140dd8905352191e0e7b7c535365ae556be7a355726b5c6.js" integrity="sha256-uKxHS72ZSSPRQN2JBTUhkeDnt8U1NlrlVr56NVcmtcY="></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body>
+  <input type="checkbox" class="hidden" id="menu-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+  <nav>
+<h2 class="book-brand">
+  <a href="../../../"><span>Marcin Misiak - writing samples</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="../../../docs/hugo/hugo/" class="active">Hugo</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="../../../docs/github/" class="">GitHub</a>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+  </ul>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="../../../docs/deploy/" class="">GitHub Pages</a>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="../../../docs/deploy/prep/" class="">Preparing for GitHub Pages deployment</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="../../../docs/deploy/deploy/" class="">Deploying the site</a>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="../../../docs/vscodium/vsc/" class="">VSC</a>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="../../../svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Hugo</strong>
+
+  <label for="toc-control">
+    <img src="../../../svg/toc.svg" class="book-icon" alt="Table of Contents" />
+  </label>
+</div>
+
+
+  
+    <input type="checkbox" class="hidden" id="toc-control" />
+    <aside class="hidden clearfix">
+      
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#installing-hugo-on-ubuntu">Installing Hugo on Ubuntu</a></li>
+    <li><a href="#initializing-a-site">Initializing a site</a></li>
+    <li><a href="#adding-a-theme">Adding a theme</a></li>
+    <li><a href="#adding-content">Adding content</a></li>
+  </ul>
+</nav>
+
+
+    </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="hugo-static-site-generator">Hugo Static Site Generator</h1>
+<h2 id="installing-hugo-on-ubuntu">Installing Hugo on Ubuntu</h2>
+<p>Hugo offers a few installation methods. The method described in this procedure lets you control the version you are installing and installs it globally.</p>
+<ol>
+<li>Go to the <a href="https://github.com/gohugoio/hugo/releases">Hugo releases page</a>.</li>
+<li>Choose a release :
+<ul>
+<li>If you are preparing to create a new site, choose the latest release.</li>
+<li>If you are going to work with an existing site, on the list locate the same release that the site is deployed with.</li>
+</ul>
+</li>
+<li>In the <strong>Assets</strong> section of the release, locate the installation file for your operating system.
+<strong>Example</strong>: <code>hugo_extended_x.y.z_Linux-64bit.tar.gz</code> is compatible with 64-bit Ubuntu.
+NOTE: The extended version is required if you need to process SCSS or SASS files.</li>
+<li>Click the file.</li>
+<li>In the dialog window that opens, select the <strong>Save file</strong> radio button and click <strong>OK</strong>.</li>
+<li>In the file explorer, open the directory where the file was saved.</li>
+<li>Right-click the downloaded file and select <strong>Extract here</strong>.<br>
+The files are extracted to a new directory named after the <code>.tar.gz</code> file, for example <code>hugo_0.69.2_Linux-64bit</code>.</li>
+<li>Right-click the directory where the files were extracted and select <strong>Open in Terminal</strong>.<br>
+<strong>Result</strong>: A Terminal window opens, with the extracted directory set as the working directory.</li>
+<li>In the Terminal window that opens, enter <code>sudo mv hugo /usr/local/bin</code></li>
+<li>Enter your password.</li>
+<li>To verify that Hugo was installed globally, perform the following actions:
+<ol>
+<li>Enter <code>cd ~</code></li>
+<li>Enter <code>hugo version</code>
+<strong>Result</strong>: If Hugo was installed successfully, the output lists the version, for example:</li>
+</ol>
+</li>
+</ol>
+<pre><code>marcin@marcin-HP:~$ hugo version
+Hugo Static Site Generator v0.69.2-EC9DCF30/extended linux/amd64 BuildDate: 2020-04-24T07:57:53Z
+marcin@marcin-HP:~$ 
+</code></pre><h2 id="initializing-a-site">Initializing a site</h2>
+<ol>
+<li>Open the Terminal by pressing <strong><code>CTRL</code> + <code>SHIFT</code> + <code>T</code></strong>.</li>
+<li>Navigate to the parent directory of your repository.<br>
+<strong>Example</strong></li>
+</ol>
+<pre><code>marcin@marcin-HP:~$ cd Documents/gitRepositories
+
+</code></pre><ol start="3">
+<li>Verify that the repository catalog exists.<br>
+<strong>Example</strong></li>
+</ol>
+<pre><code>marcin@marcin-HP:~/Documents/gitRepositories$ ls
+myRepository
+
+</code></pre><ol>
+<li>Enter <code>hugo new site {repository dir}</code><br>
+<strong>Example</strong>: <code>hugo new site myRepository</code>
+<strong>Result</strong>: An empty site is created.</li>
+<li>To serve the site on your machine, perform the following steps:
+<ol>
+<li>Enter <code>cd {repository dir}</code></li>
+<li>Enter <code>hugo server</code>
+<strong>Result</strong>: By default, the site is available at <a href="http://localhost:1313/">http://localhost:1313/</a>.  Initially, the site has no content and you can only see a blank page.
+If another site is running locally under port 1313, Hugo automatically selects a different port. You can find the current address in the output of the <code>hugo server</code> command:</li>
+</ol>
+</li>
+</ol>
+<pre><code>...
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://localhost:45353/ (bind address 127.0.0.1)
+Press Ctrl+C to stop
+...
+</code></pre><pre><code>3. Return to the Terminal window and stop the site by pressing **`CTRL` + `C`**.
+</code></pre>
+<h2 id="adding-a-theme">Adding a theme</h2>
+<p>To give your website a layout, you must add a theme. The procedure explains how to download a theme and make it a part of your repository, so you can make modifications without affecting the original theme.</p>
+<ol>
+<li>Go to the <a href="https://themes.gohugo.io/">Hugo themes site</a>.</li>
+<li>Browse the list of themes.<br>
+This page uses the <a href="https://themes.gohugo.io/hugo-book/">book theme</a>.</li>
+<li>Go the GitHub page of the theme&rsquo;s repository.</li>
+<li>Click <strong>Clone or download</strong>.</li>
+<li>Click <strong>Download ZIP</strong>.</li>
+<li>Save the file to your local drive.</li>
+<li>Extract the files.</li>
+<li>In your repository, in the <code>themes/</code> folder, create a folder named after the theme.</li>
+<li>Copy the extracted files into the theme folder.</li>
+<li>In the root folder of the repository, open the <code>config.toml</code> file.</li>
+<li>In the configuration file, add the following line:</li>
+</ol>
+<pre><code>theme = &quot;{theme name}
+</code></pre><p><strong>Example:</strong></p>
+<pre><code>baseURL = &quot;http://example.org/&quot;
+languageCode = &quot;en-us&quot;
+title = &quot;My New Hugo Site&quot;
+theme = &quot;book&quot;
+</code></pre><ol start="12">
+<li>Verify that the theme was added successfully:
+<ol>
+<li>Open the Terminal by pressing <strong><code>CTRL</code> + <code>SHIFT</code> + <code>T</code></strong>.</li>
+<li>Navigate to your repository.<br>
+<strong>Example:</strong> <code>cd Documents/myRepository</code></li>
+<li>Enter <code>hugo server</code>.<br>
+<strong>Result</strong>: Your page is available <a href="http://localhost:1313/">locally</a> as an empty site with no content. Some elements of the theme should be visible.</li>
+</ol>
+</li>
+</ol>
+<h2 id="adding-content">Adding content</h2>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#installing-hugo-on-ubuntu">Installing Hugo on Ubuntu</a></li>
+    <li><a href="#initializing-a-site">Initializing a site</a></li>
+    <li><a href="#adding-a-theme">Adding a theme</a></li>
+    <li><a href="#adding-content">Adding content</a></li>
+  </ul>
+</nav>
+
+ 
+    </aside>
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

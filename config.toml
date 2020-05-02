@@ -2,4 +2,4 @@ publishDir = "docs"
 languageCode = "en-us"
 title = "Marcin Misiak - writing samples"
 theme = "hugo-book"
-
+relativeURLs = true
