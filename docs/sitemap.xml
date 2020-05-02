@@ -3,43 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>zq-psk.github.io/ssg/docs/hugo/hugo/</loc>
+    <loc>/docs/hugo/hugo/</loc>
   </url>
   
   <url>
-    <loc>zq-psk.github.io/ssg/docs/deploy/prep/</loc>
+    <loc>/docs/deploy/prep/</loc>
   </url>
   
   <url>
-    <loc>zq-psk.github.io/ssg/docs/deploy/deploy/</loc>
+    <loc>/docs/deploy/deploy/</loc>
   </url>
   
   <url>
-    <loc>zq-psk.github.io/ssg/docs/github/</loc>
+    <loc>/docs/github/</loc>
   </url>
   
   <url>
-    <loc>zq-psk.github.io/ssg/docs/vscodium/vsc/</loc>
+    <loc>/docs/vscodium/vsc/</loc>
   </url>
   
   <url>
-    <loc>zq-psk.github.io/ssg/categories/</loc>
+    <loc>/categories/</loc>
   </url>
   
   <url>
-    <loc>zq-psk.github.io/ssg/docs/</loc>
+    <loc>/docs/</loc>
   </url>
   
   <url>
-    <loc>zq-psk.github.io/ssg/docs/deploy/</loc>
+    <loc>/docs/deploy/</loc>
   </url>
   
   <url>
-    <loc>zq-psk.github.io/ssg/</loc>
+    <loc>/</loc>
   </url>
   
   <url>
-    <loc>zq-psk.github.io/ssg/tags/</loc>
+    <loc>/tags/</loc>
   </url>
   
 </urlset>

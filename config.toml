@@ -1,4 +1,3 @@
-baseURL = "zq-psk.github.io/ssg/"
 publishDir = "docs"
 languageCode = "en-us"
 title = "Marcin Misiak - writing samples"
