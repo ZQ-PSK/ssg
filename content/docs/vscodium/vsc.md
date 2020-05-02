@@ -1,3 +1,8 @@
+---
+title: "VSC"
+weight:
+description: ""
+---
 # VS Codium 
 
 ## Installing VS Codium on Ubuntu

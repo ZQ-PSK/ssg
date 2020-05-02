@@ -1,4 +1,5 @@
 ---
+title: "Hugo"
 weight: 1
 ---
 # Hugo Static Site Generator
