@@ -19,6 +19,9 @@ Check out the "master" branch.
 **Result:** The site opens in the browser.
 6. Verify that the content was generated properly.
 7. Commit the changes in the `docs` directory.
-8. Push to the "master" branch.
+8. Push to the "origin/master" branch.
 9. **First deployment only:** Enable GitHub Pages by performing the following actions:
-   1.  
+   1. On GitHub, open the homepage of the repository.
+   2. Select the **Settings** tab.
+   3. On the **Settings** tab, scroll down to the **GitHub Pages0** section.
+   4. In the **Source** drop-down list, select the **master branch /docs folder** option.
