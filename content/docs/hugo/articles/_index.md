@@ -38,6 +38,7 @@ This example shows a part of this site's directory structure:
             articles
             └── _index.md //this is the article you are reading now
                 add.md
+                enrich.md
                 review.md
         └── github
             ...
