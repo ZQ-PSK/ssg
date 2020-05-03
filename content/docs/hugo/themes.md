@@ -21,7 +21,7 @@ This page uses the [book theme](https://themes.gohugo.io/hugo-book/).
 10. In the root folder of the repository, open the `config.toml` file.
 11. In the configuration file, add the following line:  
 ```
-theme = "{theme name}
+theme = "{theme name}"
 ```
 **Example:**
 ```
