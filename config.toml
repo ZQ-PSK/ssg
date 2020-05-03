@@ -3,4 +3,3 @@ languageCode = "en-us"
 title = "Marcin Misiak - writing samples"
 theme = "hugo-book"
 relativeURLs = true
-baseURL = "https://zq-psk.github.io/ssg/"
