@@ -21,7 +21,7 @@ The shortcodes added by a theme are usually described in the theme's `README.md`
 2. Insert a shortcode.  
 **NOTE:** The example is provided as a screenshot, because a shortcode cannot be included as a code snippet without creating another shortcode to make this possible.  
 **Example:** the `youtube` shortcode, with the video ID as a parameter.  
-![Screenshot of a Markdown source file with a shortcode](/images/shortcode.png) 
+![Screenshot of a Markdown source file with a shortcode](/images/shortcode.png)  
 **Result:** the video player is embedded in the site:
 {{< youtube dQw4w9WgXcQ >}}
 
@@ -45,11 +45,11 @@ The name should be meaningful. It is used to call the shortcode in the Markdown 
 For more information on creating shortcodes and the available functions and variables, refer to the [Hugo documentation](https://gohugo.io/templates/shortcode-templates/).
 
 ## Raw HTML
-<span style="color:red"><strong>You can include raw HTML markup in the Markdown files.</strong></span>
+<span style="color:red"><strong>You can include raw HTML markup in the Markdown files. This text is colored by using raw HTML.</strong></span>
 
 To achieve the same result as in the [shortcode created earlier](#creating-shortcodes), you can do this:
 ```
-<span style="color:red"><strong>You can include raw HTML markup in the Markdown files.</strong></span>
+<span style="color:red"><strong>You can include raw HTML markup in the Markdown files. This text is colored by using raw HTML.</strong></span>
 ```
 **NOTE:** If the code does not work, you need to [enable raw HTML in Hugo configuration](#enabling-raw-html).
 
