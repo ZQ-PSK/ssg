@@ -6,7 +6,7 @@ description: "Create a repository to store your work"
 # GitHub repository
 After your content is uploaded to a GitHub repository, you can start versioning your source files and keeping a history of changes.
 
-Before you continue, ensure that you [installed git](/docs/github/git/#installing-git).
+Before you continue, ensure that you [installed Git](/docs/github/git/#installing-git).
 
 ## Creating a repository
 1. Log in to GitHub.
@@ -18,7 +18,7 @@ NOTE: If you host a project site from this repository, the name is part of the U
 3. Click **Create repository**.  
 **Result** An empty repository is created.
 1. Open the Terminal by pressing **`CTRL` + `ALT` + `T`**.
-2. Navigate to the directory where you want to store the git repository.
+2. Navigate to the directory where you want to store the Git repository.
 **Example:**  
 ```
 marcin@marcin-HP:~$ cd Documents/gitRepositories
@@ -116,4 +116,4 @@ When you make more changes to files, you should commit them in order to build a 
 7.  Commit the changes by entering `git commit --message="{meaningful message}"`
 8.  Push the changes to origin by entering `git push`
 
-**Tip:** To simplify your work with git, install a git plugin for your text editor or a standalone application such as SourceTree.
+**Tip:** To simplify your work with Git, install a Git plugin for your text editor or a standalone application such as SourceTree.

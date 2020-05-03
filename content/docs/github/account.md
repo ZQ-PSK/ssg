@@ -34,7 +34,7 @@ A free GitHub account lets you access the basic features needed to deploy a pers
 **Result:** Your GitHub account is ready to use.
 
 ## Adding an SSH key to GitHub
-An SSH key is necessary to authorize git requests sent from your local machine to GitHub.
+An SSH key is necessary to authorize Git requests sent from your local machine to GitHub.
 
 1. Open the Terminal by pressing **`CTRL` + `ALT` + `T`**.
 2. Check for existing keys by entering `ls -al ~/.ssh`  
@@ -73,4 +73,4 @@ An SSH key is necessary to authorize git requests sent from your local machine t
 12. In the **Key** field, paste the public SSH key.
 13. Click **Add SSH key**.
 14. Enter your GitHub password.  
-**Result:** The system is authorized to perform git operations on your GitHub account.
+**Result:** The system is authorized to perform Git operations on your GitHub account.

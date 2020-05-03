@@ -14,7 +14,7 @@ The guide includes the following sections, arranged in suggested reading order.
 Instructions for creating a website with Hugo, an open-source static site generator.
 
 ## [GitHub](/docs/github)
-Describes the basic concepts of gits and explains the first steps in GitHub, including account creation, authorization, and starting work with a repository.
+Describes the basic concepts of Git and explains the first steps in GitHub, including account creation, authorization, and starting work with a repository.
 
 ## [GitHub Pages](/docs/deploy)
 Explains how to publish the Hugo-generate website using the free GitHub Pages service.
