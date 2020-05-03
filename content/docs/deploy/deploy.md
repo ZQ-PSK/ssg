@@ -25,5 +25,5 @@ IMPORTANT: This does **not** apply to the `content/docs/` folder.
 4. In the menu on the left, ensure that you are in the **Options** page (open by default).
 4. Scroll down to the **GitHub Pages** section.
 5. In the **Source** drop-down list, select the **master branch /docs folder** option.
-**Result**: Publishing the site from the `docs` folder on the "master" branch begins. Depending on the size of the site, this may take some time.  
+**Result:** Publishing the site from the `docs` folder on the "master" branch begins. Depending on the size of the site, this may take some time.  
 By default, the URL of the page is `https://{GitHub user name}.github.io{repository name}`

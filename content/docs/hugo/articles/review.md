@@ -12,7 +12,7 @@ Before publishing your site to GitHub Pages, you should review the output locall
 1. Open the Terminal by pressing **`CTRL` + `ALT` + `T`**.
 2. Navigate to the project folder.
 3. Enter `hugo server`.  
-**Result**: The site is hosted locally on your system.  
+**Result:** The site is hosted locally on your system.  
 By default, the site is available at [http://localhost:1313/](http://localhost:1313/). 
 If another site is running locally under port 1313, Hugo automatically selects a different port. You can find the current address in the output of the `hugo server` command:
    ```

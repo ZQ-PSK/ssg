@@ -15,11 +15,11 @@ Before you can add styling and content to a site, you must initialize a folder s
    marcin@marcin-HP:~$ cd Documents/gitRepositories/myHugoSite
    ```
 1. Enter `hugo new site .`  
-**Result**: An empty site is created.
+**Result:** An empty site is created.
 1. To serve the site on your machine, perform the following steps:
    1. Enter `cd {project folder}`
    2. Enter `hugo server`  
-   **Result**: By default, the site is available at [http://localhost:1313/](http://localhost:1313/).  
+   **Result:** By default, the site is available at [http://localhost:1313/](http://localhost:1313/).  
    Initially, the site has no content and you can only see a blank page.
    If another site is running locally under port 1313, Hugo automatically selects a different port. You can find the current address in the output of the `hugo server` command:  
       ```

@@ -13,13 +13,13 @@ Before you continue, ensure that you [installed git](/docs/github/git/#installin
 2. In the menu on the left, click **New**.
 3. In the **Repository name** field, enter a meaningful name.  
 NOTE: If you host a project site from this repository, the name is part of the URL.
-1. **Optional**: In the **Description** field, enter a description.
+1. **Optional:** In the **Description** field, enter a description.
 2. Make the repository public or private by selecting the corresponding radio button.
 3. Click **Create repository**.  
 **Result** An empty repository is created.
 1. Open the Terminal by pressing **`CTRL` + `ALT` + `T`**.
 2. Navigate to the directory where you want to store the git repository.
-**Example**:  
+**Example:**  
 ```
 marcin@marcin-HP:~$ cd Documents/gitRepositories
 
@@ -111,7 +111,9 @@ When you make more changes to files, you should commit them in order to build a 
 **Example:** `cd Documents/repositories/myRepository`
 3. Check for new, modified, or removed files by entering `git status`.
 4. If the output says that your local branch is a number of commits behind origin, enter `git pull`
-5. Stage all changes by entering `git add *`
-6.  Commit the changes by entering `git commit --message="{meaningful message}"`
-7.  Push the changes to origin by entering `git push`
+5. Stage all added files by entering `git add *`
+6. Stage all file modifications and deletions by entering `git add -u`
+7.  Commit the changes by entering `git commit --message="{meaningful message}"`
+8.  Push the changes to origin by entering `git push`
 
+**Tip:** To simplify your work with git, install a git plugin for your text editor or a standalone application such as SourceTree.

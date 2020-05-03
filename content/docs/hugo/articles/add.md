@@ -13,9 +13,9 @@ For more information on content organization, read [this article](/docs/hugo/art
    - `title` (string)
    - `weight` (integer)
    - `description` (string)
-   - **optional**: other metadata that your site uses
+   - **optional:** other metadata that your site uses
 
-**Example**:  
+**Example:**  
 ```
 ---
 title: "Content"

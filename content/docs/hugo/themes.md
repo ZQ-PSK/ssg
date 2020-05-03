@@ -39,7 +39,7 @@ theme = "book"
     2. Navigate to your repository.  
     **Example:** `cd Documents/myRepository`
     3. Enter `hugo server`.  
-    **Result**: Your page is available [locally](http://localhost:1313/) as an empty site with no content. Some elements of the theme should be visible.
+    **Result:** Your page is available [locally](http://localhost:1313/) as an empty site with no content. Some elements of the theme should be visible.
 
 ## Theme-specific features
 Most themes provide custom shortcodes, partials, and configuration options. Information about those features is usually available on the theme's homepage or its `README.md` file.
