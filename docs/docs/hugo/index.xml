@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo on Marcin Misiak - writing samples</title>
+    <title>Hugo on Marcin Misiak on GitHub Pages</title>
     <link>https://zq-psk.github.io/ssg/docs/hugo/</link>
-    <description>Recent content in Hugo on Marcin Misiak - writing samples</description>
+    <description>Recent content in Hugo on Marcin Misiak on GitHub Pages</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -29,8 +29,7 @@ Installing Hugo on Ubuntu This method requires the most manual work, but it give
       <guid>https://zq-psk.github.io/ssg/docs/hugo/initialize/</guid>
       <description>Initializing a site Before you can add styling and content to a site, you must initialize a folder structure and configuration files.
  In the file explorer, create a folder for your project.
-NOTE: Whenever this page mentions project folder, it refers to this folder. Open the Terminal by pressing CTRL + ALT + T. Navigate to the project folder by using the cd command.
-Example  marcin@marcin-HP:~$ cd Documents/gitRepositories/myHugoSite  Enter hugo new site .</description>
+NOTE: Whenever this page mentions project folder, it refers to this folder - until your local repository folder assumes the role of the project folder, as described in the GitHub section. Open the Terminal by pressing CTRL + ALT + T.</description>
     </item>
     
     <item>

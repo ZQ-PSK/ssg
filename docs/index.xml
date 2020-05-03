@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Marcin Misiak - writing samples</title>
+    <title>Marcin Misiak - writing samples on Marcin Misiak on GitHub Pages</title>
     <link>https://zq-psk.github.io/ssg/</link>
-    <description>Recent content on Marcin Misiak - writing samples</description>
+    <description>Recent content in Marcin Misiak - writing samples on Marcin Misiak on GitHub Pages</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -27,7 +27,9 @@ For more information on content organization, read this article. Open the new fi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://zq-psk.github.io/ssg/docs/github/git/</guid>
-      <description>Git basics Installing git  Open the Terminal by pressing CTRL + ALT + T. Check if git is installed by entering git --version Perform one of the following actions:  If the output displays a version number, no further actions are required. If the output say the git command was not found, install git by performing the following actions:  Enter sudo apt install git. If prompted, enter the password.</description>
+      <description>Git basics What is git? Git is a distributed version control system. It is free, open source, and popular with software developers worldwide.
+Git stores information about incremental changes, which means you can see and compare how a file changed over a long period of time, and control what is included in the production environment.
+Git is a powerful and complex tool. This article covers only the most basic concepts needed to perform simple operations within your own repository.</description>
     </item>
     
     <item>
@@ -80,9 +82,9 @@ Result: The static site is built in the docs directory. Commit the changes in th
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://zq-psk.github.io/ssg/docs/github/account/</guid>
-      <description>GitHub account Creating a GitHub account A free GitHub account lets you access the basic features.
+      <description>GitHub account Creating a GitHub account A free GitHub account lets you access the basic features needed to deploy a personal site.
  Go to https://github.com/. Fill in the following fields:  Username Email Password   Click Sign up for GitHub. In the page that opens, perform the following actions:  Click Verify.
-A puzzle appears. Solve the puzzle according to the instructions on the screen. Click Join a free plan. Result: A page opens, asking for more information about your work profile.</description>
+A puzzle appears. Solve the puzzle according to the instructions on the screen. Click Join a free plan.</description>
     </item>
     
     <item>
@@ -93,8 +95,19 @@ A puzzle appears. Solve the puzzle according to the instructions on the screen. 
       <guid>https://zq-psk.github.io/ssg/docs/hugo/initialize/</guid>
       <description>Initializing a site Before you can add styling and content to a site, you must initialize a folder structure and configuration files.
  In the file explorer, create a folder for your project.
-NOTE: Whenever this page mentions project folder, it refers to this folder. Open the Terminal by pressing CTRL + ALT + T. Navigate to the project folder by using the cd command.
-Example  marcin@marcin-HP:~$ cd Documents/gitRepositories/myHugoSite  Enter hugo new site .</description>
+NOTE: Whenever this page mentions project folder, it refers to this folder - until your local repository folder assumes the role of the project folder, as described in the GitHub section. Open the Terminal by pressing CTRL + ALT + T.</description>
+    </item>
+    
+    <item>
+      <title>GitHub repository</title>
+      <link>https://zq-psk.github.io/ssg/docs/github/repository/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://zq-psk.github.io/ssg/docs/github/repository/</guid>
+      <description>GitHub repository After your content is uploaded to a GitHub repository, you can start versioning your source files and keeping a history of changes.
+Before you continue, ensure that you installed git.
+Creating a repository  Log in to GitHub. In the menu on the left, click New. In the Repository name field, enter a meaningful name.
+NOTE: If you host a project site from this repository, the name is part of the URL.</description>
     </item>
     
     <item>
@@ -132,17 +145,6 @@ Problem: styling is not applied to the site Solution:
 Verify that your config file includes these lines:
 canonifyURLs = true baseURL = &amp;quot;https://{your GitHub username}.github.io/{your repository name}/&amp;quot; Problem: relative links to articles do not work Solution:
 Verify that your config file includes these lines:</description>
-    </item>
-    
-    <item>
-      <title>GitHub repository</title>
-      <link>https://zq-psk.github.io/ssg/docs/github/repository/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://zq-psk.github.io/ssg/docs/github/repository/</guid>
-      <description>GitHub repository Creating a repository  Log in to GitHub. In the menu on the left, click New. In the Repository name field, enter a meaningful name.
-NOTE: If you host a project site from this repository, the name is part of the URL. Optional: In the Description field, enter a description. Make the repository public or private by selecting the corresponding radio button. Click Create repository.
-Result An empty repository is created.</description>
     </item>
     
     <item>
