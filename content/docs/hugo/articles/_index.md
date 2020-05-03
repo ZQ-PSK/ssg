@@ -40,7 +40,7 @@ This example shows a part of this site's directory structure:
 ```
 
 In the `content/docs/hugo/articles` folder, the `_index.md` file is the main article of the section. In the table of contents, it is the "parent" of the other articles inside the folder.  
-![A part of the table contents, showing "Content" as the parent of two other articles](/images/tocExample.png)  
+![A part of the table contents, showing "Content" as the parent of two other articles](/images/tocexample.png)  
 
 In the Hugo documentation, this is called a *page bundle*.  
 
