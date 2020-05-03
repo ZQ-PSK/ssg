@@ -16,7 +16,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://zq-psk.github.io/ssg/docs/deploy/prep/</guid>
-      <description>Configuring Hugo for GitHub Pages deployment  In the root folder of your repository, open the config.toml file. In the configuration file, search for the publishDir setting. Perform one of the following actions:  If the setting exists, change its value to &amp;quot;docs&amp;quot; If the setting does not exist, create it by adding the following line to the file: publishDir = &amp;quot;docs&amp;quot;   Add the following line: relativeURLs = true</description>
+      <description>Configuring Hugo for GitHub Pages deployment Prerequisites Verify that separate configuration files for production and development are created. See this article
+ In the root folder of your repository, open the production configuration file. In the configuration file, search for the publishDir setting. Perform one of the following actions:  If the setting exists, change its value to &amp;quot;docs&amp;quot; If the setting does not exist, create it by adding the following line to the file: publishDir = &amp;quot;docs&amp;quot;   If the relativeURLs value exists and is set to true, set it to false.</description>
     </item>
     
     <item>

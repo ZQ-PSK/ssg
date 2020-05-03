@@ -5,19 +5,21 @@ description: ""
 ---
 # Configuring Hugo for GitHub Pages deployment
 
-1. In the root folder of your repository, open the `config.toml` file.
+**Prerequisites**
+Verify that separate configuration files for production and development are created. See [this article](/docs/hugo/config)
+
+1. In the root folder of your repository, open the production configuration file.
 2. In the configuration file, search for the `publishDir` setting.
 3. Perform one of the following actions:
    - If the setting exists, change its value to `"docs"`
    - If the setting does not exist, create it by adding the following line to the file: `publishDir = "docs"`
-4. Add the following line: `relativeURLs = true`  
-IMPORTANT: Other Hugo themes may require you to add the `baseURL` variable in order to publish to GitHub pages properly.  
+3. If the `relativeURLs` value exists and is set to `true`, set it to `false`.
+4. Add the following line: `baseURL = "https://{your GitHub username}.github.io/{repository name}/`  
 **Example:**  
    ```
    publishDir = "docs"
    languageCode = "en-us"
-   title = "Marcin Misiak - writing samples"
+   title = "Hugo on GitHub Pages"
    theme = "hugo-book"
-   relativeURLs = true
+   baseURL = "https://zq-psk.github.io/ssg/"
    ```
-

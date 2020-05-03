@@ -46,7 +46,8 @@ The name of the file will be visible in the URL of the article. Open the new fil
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://zq-psk.github.io/ssg/docs/deploy/prep/</guid>
-      <description>Configuring Hugo for GitHub Pages deployment  In the root folder of your repository, open the config.toml file. In the configuration file, search for the publishDir setting. Perform one of the following actions:  If the setting exists, change its value to &amp;quot;docs&amp;quot; If the setting does not exist, create it by adding the following line to the file: publishDir = &amp;quot;docs&amp;quot;   Add the following line: relativeURLs = true</description>
+      <description>Configuring Hugo for GitHub Pages deployment Prerequisites Verify that separate configuration files for production and development are created. See this article
+ In the root folder of your repository, open the production configuration file. In the configuration file, search for the publishDir setting. Perform one of the following actions:  If the setting exists, change its value to &amp;quot;docs&amp;quot; If the setting does not exist, create it by adding the following line to the file: publishDir = &amp;quot;docs&amp;quot;   If the relativeURLs value exists and is set to true, set it to false.</description>
     </item>
     
     <item>
@@ -95,6 +96,17 @@ This page uses the book theme. Go the GitHub page of the theme&amp;rsquo;s repos
     </item>
     
     <item>
+      <title>Hugo configuration files</title>
+      <link>https://zq-psk.github.io/ssg/docs/hugo/config/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://zq-psk.github.io/ssg/docs/hugo/config/</guid>
+      <description>Hugo configuration files If you modified your config.toml file to meet the requirements of GitHub Pages, the localhost preview may no longer work. To resolve this, you can create separate configuration files for production and for development.
+By default, the hugo command uses the production configuration, and hugo server uses the development configuration.
+Creating separate configuration files for development and production  In the file explorer, open the root folder of your repository.</description>
+    </item>
+    
+    <item>
       <title>GitHub repository</title>
       <link>https://zq-psk.github.io/ssg/docs/github/repository/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -111,7 +123,7 @@ Result An empty repository is created.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://zq-psk.github.io/ssg/docs/hugo/articles/review/</guid>
-      <description>Reviewing the output. Before publishing your site to GitHub Pages, you should review the output locally. GitHub Pages do not provide an on-line staging environment and the static site pushed to &amp;ldquo;origin/master&amp;rdquo; is published immediately.
+      <description>Reviewing the output Before publishing your site to GitHub Pages, you should review the output locally. GitHub Pages do not provide an on-line staging environment and the static site pushed to &amp;ldquo;origin/master&amp;rdquo; is published immediately.
 Hosting the preview  Open the Terminal by pressing CTRL + ALT + T. Navigate to the root folder of your repository. Enter hugo server.
 Result: The site is hosted locally on your system. By default, the site is available at http://localhost:1313/.</description>
     </item>

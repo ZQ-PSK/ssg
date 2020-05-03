@@ -3,11 +3,13 @@ title: "Reviewing the output"
 weight:
 description: ""
 ---
-# Reviewing the output.
+# Reviewing the output
 
 Before publishing your site to GitHub Pages, you should review the output locally. GitHub Pages do not provide an on-line staging environment and the static site pushed to "origin/master" is published immediately.
 
 ## Hosting the preview
+
+
 1. Open the Terminal by pressing **`CTRL` + `ALT` + `T`**.
 2. Navigate to the root folder of your repository.
 3. Enter `hugo server`.  
