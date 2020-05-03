@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>GitHub Pages on Hugo on GitHub Pages</title>
-    <link>https://zq-psk.github.io/ssg/docs/deploy.html</link>
+    <link>https://zq-psk.github.io/ssg/docs/deploy/</link>
     <description>Recent content in GitHub Pages on Hugo on GitHub Pages</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,20 +12,20 @@
     
     <item>
       <title>Preparing for GitHub Pages deployment</title>
-      <link>https://zq-psk.github.io/ssg/docs/deploy/prep.html</link>
+      <link>https://zq-psk.github.io/ssg/docs/deploy/prep/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://zq-psk.github.io/ssg/docs/deploy/prep.html</guid>
+      <guid>https://zq-psk.github.io/ssg/docs/deploy/prep/</guid>
       <description>Configuring Hugo for GitHub Pages deployment Prerequisites Verify that separate configuration files for production and development are created. See this article
  In the root folder of your repository, open the production configuration file. In the configuration file, search for the publishDir setting. Perform one of the following actions:  If the setting exists, change its value to &amp;quot;docs&amp;quot; If the setting does not exist, create it by adding the following line to the file: publishDir = &amp;quot;docs&amp;quot;   If the relativeURLs value exists and is set to true, set it to false.</description>
     </item>
     
     <item>
       <title>Deploying the site</title>
-      <link>https://zq-psk.github.io/ssg/docs/deploy/deploy.html</link>
+      <link>https://zq-psk.github.io/ssg/docs/deploy/deploy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://zq-psk.github.io/ssg/docs/deploy/deploy.html</guid>
+      <guid>https://zq-psk.github.io/ssg/docs/deploy/deploy/</guid>
       <description>Site deployment Building the site  In the file explorer, open the root folder of your repository. If the docs folder exists, delete it.
 IMPORTANT: This does not apply to the content/docs/ folder. Right-click Enter hugo
 Result: The static site is built in the docs directory. Commit the changes in the docs directory. Perform one of the following actions:  If you are working on the &amp;ldquo;master&amp;rdquo; branch, push to &amp;ldquo;origin/master&amp;rdquo;.</description>

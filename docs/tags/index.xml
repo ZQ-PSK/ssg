@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Hugo on GitHub Pages</title>
-    <link>https://zq-psk.github.io/ssg/tags.html</link>
+    <link>https://zq-psk.github.io/ssg/tags/</link>
     <description>Recent content in Tags on Hugo on GitHub Pages</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>VS Codium on Hugo on GitHub Pages</title>
-    <link>https://zq-psk.github.io/ssg/docs/vscodium.html</link>
+    <link>https://zq-psk.github.io/ssg/docs/vscodium/</link>
     <description>Recent content in VS Codium on Hugo on GitHub Pages</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>VS Codium</title>
-      <link>https://zq-psk.github.io/ssg/docs/vscodium/vsc.html</link>
+      <link>https://zq-psk.github.io/ssg/docs/vscodium/vsc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://zq-psk.github.io/ssg/docs/vscodium/vsc.html</guid>
+      <guid>https://zq-psk.github.io/ssg/docs/vscodium/vsc/</guid>
       <description>VS Codium Installing VS Codium on Ubuntu  Open the Ubuntu Software application.
 By default, the application is available from the application bar on the left side of the screen. In the upper-left corner of the application window, click the search icon. In the search field that opens, enter VS Codium In the results, click VS Codium. In the application details that open, click Install. In the pop-up that opens, enter your user password and press ENTER.</description>
     </item>

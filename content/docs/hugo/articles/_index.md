@@ -34,15 +34,13 @@ This example shows a part of this site's directory structure:
             └── _index.md //this is the article you are reading now
                 add.md
                 review.md
-                _gfx
-                └── tocExample.png
         └── github
             ...
         ...
 ```
 
 In the `content/docs/hugo/articles` folder, the `_index.md` file is the main article of the section. In the table of contents, it is the "parent" of the other articles inside the folder.  
-![A part of the table contents, showing "Content" as the parent of two other articles](_gfx/tocExample.png)  
+![A part of the table contents, showing "Content" as the parent of two other articles](/images/tocExample.png)  
 
 In the Hugo documentation, this is called a *page bundle*.  
 
@@ -97,7 +95,7 @@ Visible in the search engine and some tables of contents, depending on the theme
 Used to arrange the order of articles in the table of contents. Articles with the lowest weight are displayed first.  
 Weight works in the scope of a single section and does not affect sub-sections.  
 **Example:**  
-![A fragment of a table of contents](_gfx/weightExample.png)  
+![A fragment of a table of contents](/images/weightexample.png)  
 In the table of contents in the screenshot, the weight of "Initializing a site":
 - does not interact in any way with the weight of "Adding content" or "GitHub account". 
 - interacts with the weight of "Installing Hugo", "Themes", and "Content".

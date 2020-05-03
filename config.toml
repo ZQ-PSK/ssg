@@ -3,7 +3,6 @@ languageCode = "en-us"
 title = "Hugo on GitHub Pages"
 theme = "hugo-book"
 canonifyURLs = true
-uglyURLs = true
 baseURL = "https://zq-psk.github.io/ssg/"
 # enableGitInfo = true
 [params]
