@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on Hugo on GitHub Pages</title>
-    <link>/docs/hugo/</link>
+    <link>https://github.com/ZQ-PSK/ssg/docs/hugo/</link>
     <description>Recent content in Hugo on Hugo on GitHub Pages</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="/docs/hugo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://github.com/ZQ-PSK/ssg/docs/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Installing Hugo</title>
-      <link>/docs/hugo/install/</link>
+      <link>https://github.com/ZQ-PSK/ssg/docs/hugo/install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/docs/hugo/install/</guid>
+      <guid>https://github.com/ZQ-PSK/ssg/docs/hugo/install/</guid>
       <description>Installing Hugo on Ubuntu Hugo offers a few installation methods. The method described in this procedure lets you control the version you are installing and installs it globally.
  Go to the Hugo releases page. Choose a release :  If you are preparing to create a new site, choose the latest release. If you are going to work with an existing site, on the list locate the same release that the site is deployed with.</description>
     </item>
     
     <item>
       <title>Initializing a site</title>
-      <link>/docs/hugo/initialize/</link>
+      <link>https://github.com/ZQ-PSK/ssg/docs/hugo/initialize/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/docs/hugo/initialize/</guid>
+      <guid>https://github.com/ZQ-PSK/ssg/docs/hugo/initialize/</guid>
       <description>Initializing a site  Open the Terminal by pressing CTRL + ALT + T. Navigate to the parent directory of your repository.
 Example  marcin@marcin-HP:~$ cd Documents/gitRepositories Verify that the repository catalog exists.
 Example  marcin@marcin-HP:~/Documents/gitRepositories$ ls myRepository  Enter hugo new site {repository dir}
@@ -34,10 +34,10 @@ Example: hugo new site myRepository Result: An empty site is created. To serve t
     
     <item>
       <title>Themes</title>
-      <link>/docs/hugo/themes/</link>
+      <link>https://github.com/ZQ-PSK/ssg/docs/hugo/themes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/docs/hugo/themes/</guid>
+      <guid>https://github.com/ZQ-PSK/ssg/docs/hugo/themes/</guid>
       <description>Themes Adding a theme To give your website a layout, you must add a theme. The procedure explains how to download a theme and make it a part of your repository, so you can make modifications without affecting the original theme.
  Go to the Hugo themes site. Browse the list of themes.
 This page uses the book theme. Go the GitHub page of the theme&amp;rsquo;s repository. Click Clone or download.</description>

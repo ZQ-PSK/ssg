@@ -1,14 +1,14 @@
 {
   "name": "Hugo on GitHub Pages",
   "short_name": "Hugo on GitHub Pages",
-  "start_url": "/",
-  "scope": "/",
+  "start_url": "/ZQ-PSK/ssg/",
+  "scope": "/ZQ-PSK/ssg/",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#000000",
   "icons": [
     {
-      "src": "/favicon.svg",
+      "src": "/ZQ-PSK/ssg/favicon.svg",
       "sizes": "512x512"
     }
   ]

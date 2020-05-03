@@ -3,84 +3,84 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/docs/hugo/articles/add/</loc>
+    <loc>https://github.com/ZQ-PSK/ssg/docs/hugo/articles/add/</loc>
   </url>
   
   <url>
-    <loc>/docs/github/git/</loc>
+    <loc>https://github.com/ZQ-PSK/ssg/docs/github/git/</loc>
   </url>
   
   <url>
-    <loc>/docs/hugo/</loc>
+    <loc>https://github.com/ZQ-PSK/ssg/docs/hugo/</loc>
   </url>
   
   <url>
-    <loc>/docs/hugo/install/</loc>
+    <loc>https://github.com/ZQ-PSK/ssg/docs/hugo/install/</loc>
   </url>
   
   <url>
-    <loc>/docs/deploy/prep/</loc>
+    <loc>https://github.com/ZQ-PSK/ssg/docs/deploy/prep/</loc>
   </url>
   
   <url>
-    <loc>/docs/deploy/deploy/</loc>
+    <loc>https://github.com/ZQ-PSK/ssg/docs/deploy/deploy/</loc>
   </url>
   
   <url>
-    <loc>/docs/github/</loc>
+    <loc>https://github.com/ZQ-PSK/ssg/docs/github/</loc>
   </url>
   
   <url>
-    <loc>/docs/github/account/</loc>
+    <loc>https://github.com/ZQ-PSK/ssg/docs/github/account/</loc>
   </url>
   
   <url>
-    <loc>/docs/hugo/initialize/</loc>
+    <loc>https://github.com/ZQ-PSK/ssg/docs/hugo/initialize/</loc>
   </url>
   
   <url>
-    <loc>/docs/deploy/</loc>
+    <loc>https://github.com/ZQ-PSK/ssg/docs/deploy/</loc>
   </url>
   
   <url>
-    <loc>/docs/hugo/themes/</loc>
+    <loc>https://github.com/ZQ-PSK/ssg/docs/hugo/themes/</loc>
   </url>
   
   <url>
-    <loc>/docs/hugo/articles/</loc>
+    <loc>https://github.com/ZQ-PSK/ssg/docs/hugo/articles/</loc>
   </url>
   
   <url>
-    <loc>/docs/vscodium/</loc>
+    <loc>https://github.com/ZQ-PSK/ssg/docs/vscodium/</loc>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>https://github.com/ZQ-PSK/ssg/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>https://github.com/ZQ-PSK/ssg/categories/</loc>
   </url>
   
   <url>
-    <loc>/docs/</loc>
+    <loc>https://github.com/ZQ-PSK/ssg/docs/</loc>
   </url>
   
   <url>
-    <loc>/docs/github/repository/</loc>
+    <loc>https://github.com/ZQ-PSK/ssg/docs/github/repository/</loc>
   </url>
   
   <url>
-    <loc>/docs/hugo/articles/review/</loc>
+    <loc>https://github.com/ZQ-PSK/ssg/docs/hugo/articles/review/</loc>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>https://github.com/ZQ-PSK/ssg/tags/</loc>
   </url>
   
   <url>
-    <loc>/docs/vscodium/vsc/</loc>
+    <loc>https://github.com/ZQ-PSK/ssg/docs/vscodium/vsc/</loc>
   </url>
   
 </urlset>
