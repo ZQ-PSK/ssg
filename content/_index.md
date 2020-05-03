@@ -1,7 +1,7 @@
 ---
-title: "Marcin Misiak - writing samples"
+title: "Marcin Misiak on GitHub Pages"
 weight:
-description: "This website presents writing samples from Marcin Misiak"
+description: "This website was written as a GitHub Pages experiment, while experimenting with GitHub Pages"
 ---
 # Welcome to [Marcin](https://www.linkedin.com/in/marcin-misiak-70836aa4/)'s experimental website
 
