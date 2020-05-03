@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo on Marcin Misiak - writing samples</title>
+    <title>Hugo on Hugo on GitHub Pages</title>
     <link>/docs/hugo/</link>
-    <description>Recent content in Hugo on Marcin Misiak - writing samples</description>
+    <description>Recent content in Hugo on Hugo on GitHub Pages</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -26,7 +26,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/docs/hugo/initialize/</guid>
-      <description>Initializing a site  Open the Terminal by pressing CTRL + SHIFT + T. Navigate to the parent directory of your repository.
+      <description>Initializing a site  Open the Terminal by pressing CTRL + ALT + T. Navigate to the parent directory of your repository.
 Example  marcin@marcin-HP:~$ cd Documents/gitRepositories Verify that the repository catalog exists.
 Example  marcin@marcin-HP:~/Documents/gitRepositories$ ls myRepository  Enter hugo new site {repository dir}
 Example: hugo new site myRepository Result: An empty site is created. To serve the site on your machine, perform the following steps:  Enter cd {repository dir} Enter hugo server Result: By default, the site is available at http://localhost:1313/.</description>

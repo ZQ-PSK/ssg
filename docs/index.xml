@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Marcin Misiak - writing samples</title>
+    <title>Hugo on GitHub Pages</title>
     <link>/</link>
-    <description>Recent content on Marcin Misiak - writing samples</description>
+    <description>Recent content on Hugo on GitHub Pages</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -11,12 +11,23 @@
     
     
     <item>
+      <title>Adding articles</title>
+      <link>/docs/hugo/articles/add/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/hugo/articles/add/</guid>
+      <description>Adding articles  Open the content/docs folder. Create a new Markdown file.
+The name of the file will be visible in the URL of the article. Open the new file with a text editor. At the beginning of the file, add the following metadata:  title (string) weight (integer) description (string) optional: other metadata that your site uses    Example:
+--- title: &amp;quot;Content&amp;quot; weight: 20 description: &amp;quot;Short description&amp;quot; customParam: &amp;quot;string&amp;quot; customArrayParam: - &amp;quot;string&amp;quot; - &amp;quot;string&amp;quot; --- After the metadata block, add the Markdown content.</description>
+    </item>
+    
+    <item>
       <title>Git basics</title>
       <link>/docs/github/git/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/docs/github/git/</guid>
-      <description>Git basics Installing git  Open the Terminal by pressing CTRL + SHIFT + T. Check if git is installed by entering git --version Perform one of the following actions:  If the output displays a version number, no further actions are required. If the output say the git command was not found, install git by performing the following actions:  Enter sudo apt install git. If prompted, enter the password.</description>
+      <description>Git basics Installing git  Open the Terminal by pressing CTRL + ALT + T. Check if git is installed by entering git --version Perform one of the following actions:  If the output displays a version number, no further actions are required. If the output say the git command was not found, install git by performing the following actions:  Enter sudo apt install git. If prompted, enter the password.</description>
     </item>
     
     <item>
@@ -66,7 +77,7 @@ A puzzle appears. Solve the puzzle according to the instructions on the screen. 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/docs/hugo/initialize/</guid>
-      <description>Initializing a site  Open the Terminal by pressing CTRL + SHIFT + T. Navigate to the parent directory of your repository.
+      <description>Initializing a site  Open the Terminal by pressing CTRL + ALT + T. Navigate to the parent directory of your repository.
 Example  marcin@marcin-HP:~$ cd Documents/gitRepositories Verify that the repository catalog exists.
 Example  marcin@marcin-HP:~/Documents/gitRepositories$ ls myRepository  Enter hugo new site {repository dir}
 Example: hugo new site myRepository Result: An empty site is created. To serve the site on your machine, perform the following steps:  Enter cd {repository dir} Enter hugo server Result: By default, the site is available at http://localhost:1313/.</description>
@@ -95,7 +106,18 @@ Result An empty repository is created.</description>
     </item>
     
     <item>
-      <title>VSC</title>
+      <title>Reviewing the output</title>
+      <link>/docs/hugo/articles/review/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/hugo/articles/review/</guid>
+      <description>Reviewing the output. Before publishing your site to GitHub Pages, you should review the output locally. GitHub Pages do not provide an on-line staging environment and the static site pushed to &amp;ldquo;origin/master&amp;rdquo; is published immediately.
+Hosting the preview  Open the Terminal by pressing CTRL + ALT + T. Navigate to the root folder of your repository. Enter hugo server.
+Result: The site is hosted locally on your system. By default, the site is available at http://localhost:1313/.</description>
+    </item>
+    
+    <item>
+      <title>VS Codium</title>
       <link>/docs/vscodium/vsc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       

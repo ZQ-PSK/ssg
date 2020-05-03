@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>VS Codium on Marcin Misiak - writing samples</title>
+    <title>VS Codium on Hugo on GitHub Pages</title>
     <link>/docs/vscodium/</link>
-    <description>Recent content in VS Codium on Marcin Misiak - writing samples</description>
+    <description>Recent content in VS Codium on Hugo on GitHub Pages</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -11,7 +11,7 @@
     
     
     <item>
-      <title>VSC</title>
+      <title>VS Codium</title>
       <link>/docs/vscodium/vsc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       

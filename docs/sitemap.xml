@@ -3,6 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/docs/hugo/articles/add/</loc>
+  </url>
+  
+  <url>
     <loc>/docs/github/git/</loc>
   </url>
   
@@ -43,7 +47,7 @@
   </url>
   
   <url>
-    <loc>/docs/hugo/content/</loc>
+    <loc>/docs/hugo/articles/</loc>
   </url>
   
   <url>
@@ -65,6 +69,10 @@
   
   <url>
     <loc>/docs/github/repository/</loc>
+  </url>
+  
+  <url>
+    <loc>/docs/hugo/articles/review/</loc>
   </url>
   
   <url>

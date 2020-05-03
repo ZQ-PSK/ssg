@@ -5,7 +5,7 @@ description: ""
 ---
 # Initializing a site
 
-1. Open the Terminal by pressing **`CTRL` + `SHIFT` + `T`**.
+1. Open the Terminal by pressing **`CTRL` + `ALT` + `T`**.
 2. Navigate to the parent directory of your repository.  
 **Example**
 ```

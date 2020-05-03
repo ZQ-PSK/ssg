@@ -6,7 +6,7 @@ description: ""
 # Git basics
 ## Installing git
 
-1. Open the Terminal by pressing **`CTRL` + `SHIFT` + `T`**.
+1. Open the Terminal by pressing **`CTRL` + `ALT` + `T`**.
 1. Check if git is installed by entering `git --version`
 2. Perform one of the following actions:
    - If the output displays a version number, no further actions are required.

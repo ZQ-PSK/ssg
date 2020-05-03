@@ -13,7 +13,7 @@ NOTE: If you host a project site from this repository, the name is part of the U
 2. Make the repository public or private by selecting the corresponding radio button.
 3. Click **Create repository**.  
 **Result** An empty repository is created.
-1. Open the Terminal by pressing **`CTRL` + `SHIFT` + `T`**.
+1. Open the Terminal by pressing **`CTRL` + `ALT` + `T`**.
 2. Navigate to the directory where you want to store the git repository.
 **Example**:  
 ```

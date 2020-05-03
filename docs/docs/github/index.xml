@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>GitHub on Marcin Misiak - writing samples</title>
+    <title>GitHub on Hugo on GitHub Pages</title>
     <link>/docs/github/</link>
-    <description>Recent content in GitHub on Marcin Misiak - writing samples</description>
+    <description>Recent content in GitHub on Hugo on GitHub Pages</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -16,7 +16,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/docs/github/git/</guid>
-      <description>Git basics Installing git  Open the Terminal by pressing CTRL + SHIFT + T. Check if git is installed by entering git --version Perform one of the following actions:  If the output displays a version number, no further actions are required. If the output say the git command was not found, install git by performing the following actions:  Enter sudo apt install git. If prompted, enter the password.</description>
+      <description>Git basics Installing git  Open the Terminal by pressing CTRL + ALT + T. Check if git is installed by entering git --version Perform one of the following actions:  If the output displays a version number, no further actions are required. If the output say the git command was not found, install git by performing the following actions:  Enter sudo apt install git. If prompted, enter the password.</description>
     </item>
     
     <item>

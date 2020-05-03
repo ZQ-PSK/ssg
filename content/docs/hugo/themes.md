@@ -31,7 +31,7 @@ title = "My New Hugo Site"
 theme = "book"
 ```
 12. Verify that the theme was added successfully:
-    1. Open the Terminal by pressing **`CTRL` + `SHIFT` + `T`**.
+    1. Open the Terminal by pressing **`CTRL` + `ALT` + `T`**.
     2. Navigate to your repository.  
     **Example:** `cd Documents/myRepository`
     3. Enter `hugo server`.  
