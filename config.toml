@@ -2,7 +2,8 @@ publishDir = "docs"
 languageCode = "en-us"
 title = "Hugo on GitHub Pages"
 theme = "hugo-book"
-baseURL = "https://zq-psk.github.io/ssg/"
+relativeURLs = true
+baseURL = "https://zq-psk.github.io/ssg"
 # enableGitInfo = true
 [params]
     BookRepo = 'https://github.com/ZQ-PSK/ssg'
