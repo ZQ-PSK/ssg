@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on Hugo on GitHub Pages</title>
-    <link>https://zq-psk.github.io/ssg/docs/hugo/</link>
+    <link>https://zq-psk.github.io/ssg/docs/hugo.html</link>
     <description>Recent content in Hugo on Hugo on GitHub Pages</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,20 +12,20 @@
     
     <item>
       <title>Installing Hugo</title>
-      <link>https://zq-psk.github.io/ssg/docs/hugo/install/</link>
+      <link>https://zq-psk.github.io/ssg/docs/hugo/install.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://zq-psk.github.io/ssg/docs/hugo/install/</guid>
+      <guid>https://zq-psk.github.io/ssg/docs/hugo/install.html</guid>
       <description>Installing Hugo on Ubuntu Hugo offers a few installation methods. The method described in this procedure lets you control the version you are installing and installs it globally.
  Go to the Hugo releases page. Choose a release :  If you are preparing to create a new site, choose the latest release. If you are going to work with an existing site, on the list locate the same release that the site is deployed with.</description>
     </item>
     
     <item>
       <title>Initializing a site</title>
-      <link>https://zq-psk.github.io/ssg/docs/hugo/initialize/</link>
+      <link>https://zq-psk.github.io/ssg/docs/hugo/initialize.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://zq-psk.github.io/ssg/docs/hugo/initialize/</guid>
+      <guid>https://zq-psk.github.io/ssg/docs/hugo/initialize.html</guid>
       <description>Initializing a site  Open the Terminal by pressing CTRL + ALT + T. Navigate to the parent directory of your repository.
 Example  marcin@marcin-HP:~$ cd Documents/gitRepositories Verify that the repository catalog exists.
 Example  marcin@marcin-HP:~/Documents/gitRepositories$ ls myRepository  Enter hugo new site {repository dir}
@@ -34,10 +34,10 @@ Example: hugo new site myRepository Result: An empty site is created. To serve t
     
     <item>
       <title>Themes</title>
-      <link>https://zq-psk.github.io/ssg/docs/hugo/themes/</link>
+      <link>https://zq-psk.github.io/ssg/docs/hugo/themes.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://zq-psk.github.io/ssg/docs/hugo/themes/</guid>
+      <guid>https://zq-psk.github.io/ssg/docs/hugo/themes.html</guid>
       <description>Themes Adding a theme To give your website a layout, you must add a theme. The procedure explains how to download a theme and make it a part of your repository, so you can make modifications without affecting the original theme.
  Go to the Hugo themes site. Browse the list of themes.
 This page uses the book theme. Go the GitHub page of the theme&amp;rsquo;s repository. Click Clone or download.</description>
@@ -45,10 +45,10 @@ This page uses the book theme. Go the GitHub page of the theme&amp;rsquo;s repos
     
     <item>
       <title>Hugo configuration files</title>
-      <link>https://zq-psk.github.io/ssg/docs/hugo/config/</link>
+      <link>https://zq-psk.github.io/ssg/docs/hugo/config.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://zq-psk.github.io/ssg/docs/hugo/config/</guid>
+      <guid>https://zq-psk.github.io/ssg/docs/hugo/config.html</guid>
       <description>Hugo configuration files If you modified your config.toml file to meet the requirements of GitHub Pages, the localhost preview may no longer work. To resolve this, you can create separate configuration files for production and for development.
 By default, the hugo command uses the production configuration, and hugo server uses the development configuration.
 Creating separate configuration files for development and production  In the file explorer, open the root folder of your repository.</description>

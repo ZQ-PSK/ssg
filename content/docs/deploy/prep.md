@@ -14,12 +14,14 @@ Verify that separate configuration files for production and development are crea
    - If the setting exists, change its value to `"docs"`
    - If the setting does not exist, create it by adding the following line to the file: `publishDir = "docs"`
 3. If the `relativeURLs` value exists and is set to `true`, set it to `false`.
-4. Add the following line: `baseURL = "https://{your GitHub username}.github.io/{repository name}/`  
+4. Add the following line: `canonifyURLs = true`
+5. Add the following line: `baseURL = "https://{your GitHub username}.github.io/{repository name}/`  
 **Example:**  
    ```
    publishDir = "docs"
    languageCode = "en-us"
    title = "Hugo on GitHub Pages"
    theme = "hugo-book"
+   canonifyURLs = true
    baseURL = "https://zq-psk.github.io/ssg/"
    ```

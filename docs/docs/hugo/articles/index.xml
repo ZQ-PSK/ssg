@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Content on Hugo on GitHub Pages</title>
-    <link>https://zq-psk.github.io/ssg/docs/hugo/articles/</link>
+    <link>https://zq-psk.github.io/ssg/docs/hugo/articles.html</link>
     <description>Recent content in Content on Hugo on GitHub Pages</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>Adding articles</title>
-      <link>https://zq-psk.github.io/ssg/docs/hugo/articles/add/</link>
+      <link>https://zq-psk.github.io/ssg/docs/hugo/articles/add.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://zq-psk.github.io/ssg/docs/hugo/articles/add/</guid>
+      <guid>https://zq-psk.github.io/ssg/docs/hugo/articles/add.html</guid>
       <description>Adding articles  Open the content/docs folder. Create a new Markdown file.
 The name of the file will be visible in the URL of the article. Open the new file with a text editor. At the beginning of the file, add the following metadata:  title (string) weight (integer) description (string) optional: other metadata that your site uses    Example:
 --- title: &amp;quot;Content&amp;quot; weight: 20 description: &amp;quot;Short description&amp;quot; customParam: &amp;quot;string&amp;quot; customArrayParam: - &amp;quot;string&amp;quot; - &amp;quot;string&amp;quot; --- After the metadata block, add the Markdown content.</description>
@@ -23,10 +23,10 @@ The name of the file will be visible in the URL of the article. Open the new fil
     
     <item>
       <title>Reviewing the output</title>
-      <link>https://zq-psk.github.io/ssg/docs/hugo/articles/review/</link>
+      <link>https://zq-psk.github.io/ssg/docs/hugo/articles/review.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://zq-psk.github.io/ssg/docs/hugo/articles/review/</guid>
+      <guid>https://zq-psk.github.io/ssg/docs/hugo/articles/review.html</guid>
       <description>Reviewing the output Before publishing your site to GitHub Pages, you should review the output locally. GitHub Pages do not provide an on-line staging environment and the static site pushed to &amp;ldquo;origin/master&amp;rdquo; is published immediately.
 Hosting the preview  Open the Terminal by pressing CTRL + ALT + T. Navigate to the root folder of your repository. Enter hugo server.
 Result: The site is hosted locally on your system. By default, the site is available at http://localhost:1313/.</description>
