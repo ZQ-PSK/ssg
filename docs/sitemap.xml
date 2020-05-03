@@ -3,7 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/docs/hugo/hugo/</loc>
+    <loc>/docs/hugo/articles/add/</loc>
+  </url>
+  
+  <url>
+    <loc>/docs/github/git/</loc>
+  </url>
+  
+  <url>
+    <loc>/docs/hugo/</loc>
+  </url>
+  
+  <url>
+    <loc>/docs/hugo/install/</loc>
   </url>
   
   <url>
@@ -12,6 +24,34 @@
   
   <url>
     <loc>/docs/deploy/deploy/</loc>
+  </url>
+  
+  <url>
+    <loc>/docs/github/</loc>
+  </url>
+  
+  <url>
+    <loc>/docs/github/account/</loc>
+  </url>
+  
+  <url>
+    <loc>/docs/hugo/initialize/</loc>
+  </url>
+  
+  <url>
+    <loc>/docs/deploy/</loc>
+  </url>
+  
+  <url>
+    <loc>/docs/hugo/themes/</loc>
+  </url>
+  
+  <url>
+    <loc>/docs/hugo/articles/</loc>
+  </url>
+  
+  <url>
+    <loc>/docs/vscodium/</loc>
   </url>
   
   <url>
@@ -28,11 +68,11 @@
   </url>
   
   <url>
-    <loc>/docs/github/</loc>
+    <loc>/docs/github/repository/</loc>
   </url>
   
   <url>
-    <loc>/docs/deploy/</loc>
+    <loc>/docs/hugo/articles/review/</loc>
   </url>
   
   <url>

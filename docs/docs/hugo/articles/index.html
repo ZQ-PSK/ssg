@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Learn to manage content structures in Hugo">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="Content" />
+<meta property="og:description" content="Learn to manage content structures in Hugo" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="/docs/hugo/articles/" />
+
+<title>Content | Hugo on GitHub Pages</title>
+<link rel="manifest" href="../../../manifest.json">
+<link rel="icon" href="../../../favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="../../../book.min.6df681b0bb21155cba49f6078e3559216772d8e03e780d240c73ea21817ed5e5.css" integrity="sha256-bfaBsLshFVy6SfYHjjVZIWdy2OA&#43;eA0kDHPqIYF&#43;1eU=">
+<script defer src="../../../en.search.min.fbd3b58b91414fc45cee956ecd1c76bd5052642512090efebcbe8bcbe4b9226b.js" integrity="sha256-&#43;9O1i5FBT8Rc7pVuzRx2vVBSZCUSCQ7&#43;vL6Ly&#43;S5Ims="></script>
+<link rel="alternate" type="application/rss+xml" href="../../../docs/hugo/articles/index.xml" title="Hugo on GitHub Pages" />
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body>
+  <input type="checkbox" class="hidden" id="menu-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+  <nav>
+<h2 class="book-brand">
+  <a href="../../../"><span>Hugo on GitHub Pages</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="../../../docs/hugo/" class="">Hugo</a>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="../../../docs/hugo/install/" class="">Installing Hugo</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="../../../docs/hugo/initialize/" class="">Initializing a site</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="../../../docs/hugo/themes/" class="">Themes</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="../../../docs/hugo/articles/" class="active">Content</a>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="../../../docs/hugo/articles/add/" class="">Adding articles</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="../../../docs/hugo/articles/review/" class="">Reviewing the output</a>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="../../../docs/github/" class="">GitHub</a>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="../../../docs/github/git/" class="">Git basics</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="../../../docs/github/account/" class="">GitHub account</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="../../../docs/github/repository/" class="">GitHub repository</a>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="../../../docs/deploy/" class="">GitHub Pages</a>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="../../../docs/deploy/prep/" class="">Preparing for GitHub Pages deployment</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="../../../docs/deploy/deploy/" class="">Deploying the site</a>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="../../../docs/vscodium/" class="">VS Codium</a>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="../../../docs/vscodium/vsc/" class="">VS Codium</a>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="../../../svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Content</strong>
+
+  <label for="toc-control">
+    <img src="../../../svg/toc.svg" class="book-icon" alt="Table of Contents" />
+  </label>
+</div>
+
+
+  
+    <input type="checkbox" class="hidden" id="toc-control" />
+    <aside class="hidden clearfix">
+      
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#markdown">Markdown</a></li>
+    <li><a href="#content-organization">Content organization</a>
+      <ul>
+        <li><a href="#directory-structure">Directory structure</a></li>
+        <li><a href="#article-weight">Article weight</a></li>
+      </ul>
+    </li>
+    <li><a href="#article-metadata">Article metadata</a>
+      <ul>
+        <li><a href="#title">Title</a></li>
+        <li><a href="#description">Description</a></li>
+        <li><a href="#weight">Weight</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+    </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="content">Content</h1>
+<p>Hugo accepts a number of content formats. The content of this site is written in Markdown.</p>
+<h2 id="markdown">Markdown</h2>
+<p>Markdown is a lightweight markup language. It is easy to learn and easy to use, but its capabilities are limited.</p>
+<p>You can learn Markdown from <a href="https://guides.github.com/features/mastering-markdown/">this tutorial from GitHub</a>.<br>
+Hugo uses an interpreter compliant with the same Markdown flavor that GitHub uses.</p>
+<h2 id="content-organization">Content organization</h2>
+<p>The easiest way to organize content in Hugo is by manipulating the directory structure and the <code>weight</code> metadata of articles.</p>
+<h3 id="directory-structure">Directory structure</h3>
+<p>By default, content is stored in the <code>content</code> folder in your repository. Themes may require various layouts for the files in that folder. For example, the &ldquo;book&rdquo; theme, used to generate this site, by default requires the content to be placed in the <code>content/docs</code> folder.</p>
+<p>When you add content files, their position in the directory structure affects their kind and position in the table of contents.</p>
+<p>This example shows a part of this site&rsquo;s directory structure:</p>
+<pre><code>.
+└── content
+    └── docs
+        └── hugo
+            _index.md
+            initialize.md
+            install.md
+            themes.md
+            articles
+            └── _index.md //this is the article you are reading now
+                add.md
+                review.md
+                _gfx
+                └── tocExample.png
+        └── github
+            ...
+        ...
+</code></pre><p>In the <code>content/docs/hugo/articles</code> folder, the <code>_index.md</code> file is the main article of the section. In the table of contents, it is the &ldquo;parent&rdquo; of the other articles inside the folder.<br>
+<img src="_gfx/tocExample.png" alt="A part of the table contents, showing &amp;ldquo;Content&amp;rdquo; as the parent of two other articles" /></p>
+<p>In the Hugo documentation, this is called a <em>page bundle</em>.</p>
+<p><strong>NOTE:</strong> the index file <strong>must</strong> be named <code>_index.md</code>, including the underscore. Without the underscore, the page becomes a <em>leaf bundle</em>. Leaf bundles are not used for creating this site.</p>
+<p>Page bundles can be used to create logical structures and store additional resources, such as images, closer to the content where they are used.<br>
+In the folder structure mentioned earlier, the article you are reading now is a part of another page bundle. The index page of the larger page bundle is <a href="../../../docs/hugo">this article</a>.</p>
+<p>For more details, see the <a href="https://gohugo.io/content-management/organization/">Hugo documentaiton</a>.</p>
+<h3 id="article-weight">Article weight</h3>
+<p>The <code>weight</code> metadata is explained <a href="#weight">here</a>.</p>
+<h2 id="article-metadata">Article metadata</h2>
+<p>The metadata is a block of YAML-formatted data at the beginning of a Markdown file. The example shows the first lines of this article&rsquo;s source file:</p>
+<pre><code>---
+title: &quot;Content&quot;
+weight: 20
+description: &quot;Learn to manage content structures in Hugo&quot;
+---
+# Content
+
+Hugo accepts a number of content formats. The content of this site is written in Markdown.
+</code></pre><p>The two main purposes of metadata are:</p>
+<ul>
+<li>Providing information to Hugo when generating a site.</li>
+<li>Providing information to search engines.</li>
+</ul>
+<p>Hugo does not treat any metadata as obligatory. Omitting the metadata entirely does not cause a build error. However, it is good practice to add at least a title and a description.</p>
+<p>You can add custom metadata:</p>
+<pre><code>---
+title: &quot;Content&quot;
+weight: 20
+description: &quot;Short description&quot;
+customParam: &quot;string&quot;
+customArrayParam:
+    - &quot;string&quot;
+    - &quot;string&quot;
+---
+</code></pre><p>This can be useful for creating custom shortcodes and partials. For example, you can create a shortcode that uses metadata to build complex relationship maps between articles.</p>
+<h3 id="title">Title</h3>
+<p>Visible in the table of contents, the title of the browser tab, and the search engine.</p>
+<h3 id="description">Description</h3>
+<p>Visible in the search engine and some tables of contents, depending on the theme.</p>
+<h3 id="weight">Weight</h3>
+<p>Used to arrange the order of articles in the table of contents. Articles with the lowest weight are displayed first.<br>
+Weight works in the scope of a single section and does not affect sub-sections.<br>
+<strong>Example:</strong><br>
+<img src="_gfx/weightExample.png" alt="A fragment of a table of contents" /><br>
+In the table of contents in the screenshot, the weight of &ldquo;Initializing a site&rdquo;:</p>
+<ul>
+<li>does not interact in any way with the weight of &ldquo;Adding content&rdquo; or &ldquo;GitHub account&rdquo;.</li>
+<li>interacts with the weight of &ldquo;Installing Hugo&rdquo;, &ldquo;Themes&rdquo;, and &ldquo;Content&rdquo;.</li>
+</ul>
+<p><strong>TIP:</strong> When adding weight to articles, do not increment the value by <code>1</code>. Use a larger value, such as <code>5</code> or <code>10</code>. Thanks to this, when you add an article in the future, you will not need to modify the weight of other articles in the section.<br>
+<strong>Example</strong>.</p>
+<ol>
+<li>&ldquo;Article A&rdquo; has a weight of 5.</li>
+<li>&ldquo;Article B&rdquo; has a weight of 10.</li>
+<li>A month later, &ldquo;Article C&rdquo; is added. The weight is set to 8.</li>
+</ol>
+<p>In result, &ldquo;Article C&rdquo; is placed in the table of contents between A and B without any further modifications.<br>
+If A had a weight of 1 and B had a weight of 2, you would have to change the weight of B to 3. In a structure with more articles, this would generate unnecessary workload.</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#markdown">Markdown</a></li>
+    <li><a href="#content-organization">Content organization</a>
+      <ul>
+        <li><a href="#directory-structure">Directory structure</a></li>
+        <li><a href="#article-weight">Article weight</a></li>
+      </ul>
+    </li>
+    <li><a href="#article-metadata">Article metadata</a>
+      <ul>
+        <li><a href="#title">Title</a></li>
+        <li><a href="#description">Description</a></li>
+        <li><a href="#weight">Weight</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+ 
+    </aside>
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

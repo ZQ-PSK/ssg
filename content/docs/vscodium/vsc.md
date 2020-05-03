@@ -1,5 +1,5 @@
 ---
-title: "VSC"
+title: "VS Codium"
 weight:
 description: ""
 ---
@@ -7,7 +7,7 @@ description: ""
 
 ## Installing VS Codium on Ubuntu
 
-1. Open the Ubuntu Software application.  
+1. Open the **Ubuntu Software** application.  
 By default, the application is available from the application bar on the left side of the screen.
 2. In the upper-left corner of the application window, click the search icon.
 3. In the search field that opens, enter `VS Codium`

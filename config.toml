@@ -1,5 +1,8 @@
 publishDir = "docs"
 languageCode = "en-us"
-title = "Marcin Misiak - writing samples"
+title = "Hugo on GitHub Pages"
 theme = "hugo-book"
 relativeURLs = true
+# enableGitInfo = true
+[params]
+    BookRepo = 'https://github.com/ZQ-PSK/ssg'

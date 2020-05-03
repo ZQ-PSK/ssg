@@ -1,14 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>GitHub on Marcin Misiak - writing samples</title>
+    <title>GitHub on Hugo on GitHub Pages</title>
     <link>/docs/github/</link>
-    <description>Recent content in GitHub on Marcin Misiak - writing samples</description>
+    <description>Recent content in GitHub on Hugo on GitHub Pages</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
 	<atom:link href="/docs/github/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Git basics</title>
+      <link>/docs/github/git/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/github/git/</guid>
+      <description>Git basics Installing git  Open the Terminal by pressing CTRL + ALT + T. Check if git is installed by entering git --version Perform one of the following actions:  If the output displays a version number, no further actions are required. If the output say the git command was not found, install git by performing the following actions:  Enter sudo apt install git. If prompted, enter the password.</description>
+    </item>
+    
+    <item>
+      <title>GitHub account</title>
+      <link>/docs/github/account/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/github/account/</guid>
+      <description>GitHub account Creating a GitHub account A free GitHub account lets you access the basic features.
+ Go to https://github.com/. Fill in the following fields:  Username Email Password   Click Sign up for GitHub. In the page that opens, perform the following actions:  Click Verify.
+A puzzle appears. Solve the puzzle according to the instructions on the screen. Click Join a free plan. Result: A page opens, asking for more information about your work profile.</description>
+    </item>
+    
+    <item>
+      <title>GitHub repository</title>
+      <link>/docs/github/repository/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/github/repository/</guid>
+      <description>GitHub repository Creating a repository  Log in to GitHub. In the menu on the left, click New. In the Repository name field, enter a meaningful name.
+NOTE: If you host a project site from this repository, the name is part of the URL. Optional: In the Description field, enter a description. Make the repository public or private by selecting the corresponding radio button. Click Create repository.
+Result An empty repository is created.</description>
+    </item>
     
   </channel>
 </rss>
