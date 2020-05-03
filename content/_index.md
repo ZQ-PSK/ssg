@@ -7,6 +7,8 @@ description: "This website presents writing samples from Marcin Misiak"
 
 This website was created to provide **samples** of my writing on technical content. It is **not** an exhaustive guide or a feature-packed documentation demo.
 
+All commands provided literally in this guide and system configuration instructions assume the use of Ubuntu or a similar Linux distribution.
+
 The guide includes the following sections, arranged in suggested reading order.
 ## [Hugo](/docs/hugo)
 Instructions for creating a website with Hugo, an open-source static site generator.

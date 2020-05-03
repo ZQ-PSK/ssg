@@ -7,7 +7,7 @@ description: "Create a 'skeleton' site as a basis for further work"
 Before you can add styling and content to a site, you must initialize a folder structure and configuration files.
 
 1. In the file explorer, create a folder for your project.  
-**NOTE:** Whenever this page mentions *project folder*, it refers to this folder.
+**NOTE:** Whenever this page mentions *project folder*, it refers to this folder - until your local repository folder assumes the role of the project folder, as described in the [GitHub section](/docs/github).
 3. Open the Terminal by pressing **`CTRL` + `ALT` + `T`**.
 4. Navigate to the project folder by using the `cd` command.  
 **Example:**

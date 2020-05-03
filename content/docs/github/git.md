@@ -5,14 +5,16 @@ description: "The basic concepts needed to understand git"
 ---
 # Git basics
 ## What is git?
-Git is a distributed version control system. It is free, open source, and popular with software developers worldwide.
+Git is a distributed version control system. It is free, open source, and popular with software developers worldwide.  
+
+Git stores information about incremental changes, which means you can see and compare how a file changed over a long period of time, and control what is included in the production environment.
 
 Git is a powerful and complex tool. This article covers only the most basic concepts needed to perform simple operations within your own repository. If you want to use git on a regular basis or in a professional environment, you should complete a more comprehensive tutorial.
 
 ### Git glossary
 Here are the explanations of the basic terms you need to know to understand git.
 #### Repository
-A repository is the central element of a git-controlled project. It stores all the data: files, branches,history, access rights, and so on.
+A repository is the central element of a git-controlled project. It stores all the data: files, branches, history, and so on.
 #### Branch
 By default, a repository only includes a *master* branch which stores the files released into production. When you're working on a personal project and learning to use git, you do not need to create any other branches.  
 
@@ -39,10 +41,16 @@ Cancelling a commit is much more difficult than reverting the changes in a text 
 When committing, you can choose some of the files you modified, or add all of them to the commit.  
 Commits can be made with a message. It is good practice to add meaningful, short commit messages.  
 You can make a series of commits locally before pushing your work to the cloud.
+#### Staged changes
+Staged changes are changes that are included in the commit at the time the commit is made. You can add all changes to a commit or pick only some of them.
+
+Changes are added on a file-by-file basis. You cannot stage only a part of the changes made to a particular file.
 #### Push
 Pushing means uploading the commits from your local branch to its origin counterpart.
 
 When you push a branch that does not have an origin counterpart, you can create the counterpart in the process.
+#### Pull
+Pulling means downloading the changes from the origin branch to its local counterpart. This is done to keep a branch up-to-date if commits were made to the branch from another system since you cloned it to your local drive. The changes could be made by another contributor or by you, from another computer.
 #### Merge
 A merge transfers the commits form one branch to another. Merges are usually done into the master branch, but you can also merge working branches into one another.
 
@@ -59,14 +67,15 @@ A simple example of how git may be used:
 1. Marcin clones a repository to his local drive.
 2. He creates a new branch locally or checks out an existing branch.
 3. He makes changes to some files.
-4. He commits the changes the the local branch.
-5. He pushes the commits to the origin branch.
-6. Using the GitHub GUI, he creates a pull request.
-7. Marcin's teammates review the pull request and submit their approvals.
-8. Marcin accepts the pull request and the changes are merged into the master branch.
-9. The content of the master branch is published to production, making it available to the clients.
-10. Marcin deletes the working branch from local and origin.
-11. When he wants to introduce more changes, Marcin creates a new branch for that work.
+4. He stages the changes.
+5. He commits the changes the the local branch.
+6. He pushes the commits to the origin branch.
+7. Using the GitHub GUI, he creates a pull request.
+8. Marcin's teammates review the pull request and submit their approvals.
+9. Marcin accepts the pull request and the changes are merged into the master branch.
+10. The content of the master branch is published to production, making it available to the clients.
+11. Marcin deletes the working branch from local and origin.
+12. When he wants to introduce more changes, Marcin creates a new branch for that work.
 
 ## Git GUIs
 Git can be used entirely from the Terminal, but to make your work easier, you can use GUIs such as SourceTree or text editor plugins.  

@@ -21,6 +21,8 @@ If another site is running locally under port 1313, Hugo automatically selects a
    **Note:** If you already completed [configuration for GitHub pages](/docs/deploy/prep), the localhost URL includes your repository name, for example `http://localhost:1313/ssg/`.
 7. To stop the local server, return to the Terminal and press **`CTRL` + `C`**.
 
+**Tip:** After you add a few articles, start [storing your work on GitHub](/docs/github) and [publish the site](/docs/deploy).
+
 ## Review considerations
 
 Markdown requires precise application of spaces and line breaks.  
