@@ -63,10 +63,6 @@
   </url>
   
   <url>
-    <loc>https://zq-psk.github.io/ssg/docs/vscodium/</loc>
-  </url>
-  
-  <url>
     <loc>https://zq-psk.github.io/ssg/docs/deploy/troubleshooting/</loc>
   </url>
   
@@ -84,10 +80,6 @@
   
   <url>
     <loc>https://zq-psk.github.io/ssg/tags/</loc>
-  </url>
-  
-  <url>
-    <loc>https://zq-psk.github.io/ssg/docs/vscodium/vsc/</loc>
   </url>
   
 </urlset>

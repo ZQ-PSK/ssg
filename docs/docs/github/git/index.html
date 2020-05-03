@@ -4,17 +4,17 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="The basic concepts needed to understand git">
+<meta name="description" content="The basic concepts needed to understand Git">
 <meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="Git basics" />
-<meta property="og:description" content="The basic concepts needed to understand git" />
+<meta property="og:description" content="The basic concepts needed to understand Git" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://zq-psk.github.io/ssg/docs/github/git/" />
 
 <title>Git basics | Marcin Misiak on GitHub Pages</title>
 <link rel="manifest" href="https://zq-psk.github.io/ssg/manifest.json">
 <link rel="icon" href="https://zq-psk.github.io/ssg/favicon.png" type="image/x-icon">
-<link rel="stylesheet" href="https://zq-psk.github.io/ssg/book.min.6df681b0bb21155cba49f6078e3559216772d8e03e780d240c73ea21817ed5e5.css" integrity="sha256-bfaBsLshFVy6SfYHjjVZIWdy2OA&#43;eA0kDHPqIYF&#43;1eU=">
-<script defer src="https://zq-psk.github.io/ssg/en.search.min.033c24a1232d9446c83ac90f4b97a1f3dcf96abaf5c384b401291dedf53d2f62.js" integrity="sha256-AzwkoSMtlEbIOskPS5eh89z5arr1w4S0ASkd7fU9L2I="></script>
+<link rel="stylesheet" href="https://zq-psk.github.io/ssg/book.min.8c76db3bb68fbda87cbc8c3089770b633d0ed8862fe4b7f5c755a0485b4d468a.css" integrity="sha256-jHbbO7aPvah8vIwwiXcLYz0O2IYv5Lf1x1WgSFtNRoo=">
+<script defer src="https://zq-psk.github.io/ssg/en.search.min.a9293cfed2ad3a641dce0ff339e87e4eb5de32c822b84923d75d1caf28ee8b56.js" integrity="sha256-qSk8/tKtOmQdzg/zOeh&#43;TrXeMsgiuEkj110cryjui1Y="></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -267,37 +267,6 @@ https://github.com/alex-shpak/hugo-book
         </li>
       
     
-      
-        <li>
-          
-  
-    <a href="https://zq-psk.github.io/ssg/docs/vscodium/" class="">VS Codium</a>
-  
-
-          
-  
-  
-  
-
-  
-  <ul>
-    
-      
-        <li>
-          
-  
-    <a href="https://zq-psk.github.io/ssg/docs/vscodium/vsc/" class="">VS Codium</a>
-  
-
-        </li>
-      
-    
-  </ul>
-  
-
-        </li>
-      
-    
   </ul>
   
 
@@ -366,14 +335,14 @@ https://github.com/alex-shpak/hugo-book
       
   <nav id="TableOfContents">
   <ul>
-    <li><a href="#what-is-git">What is git?</a>
+    <li><a href="#what-is-git">What is Git?</a>
       <ul>
         <li><a href="#git-glossary">Git glossary</a></li>
         <li><a href="#git-workflow-example">Git workflow example</a></li>
       </ul>
     </li>
     <li><a href="#git-guis">Git GUIs</a></li>
-    <li><a href="#installing-git">Installing git</a></li>
+    <li><a href="#installing-git">Installing Git</a></li>
   </ul>
 </nav>
 
@@ -386,16 +355,16 @@ https://github.com/alex-shpak/hugo-book
       
       
   <article class="markdown"><h1 id="git-basics">Git basics</h1>
-<h2 id="what-is-git">What is git?</h2>
+<h2 id="what-is-git">What is Git?</h2>
 <p>Git is a distributed version control system. It is free, open source, and popular with software developers worldwide.</p>
 <p>Git stores information about incremental changes, which means you can see and compare how a file changed over a long period of time, and control what is included in the production environment.</p>
-<p>Git is a powerful and complex tool. This article covers only the most basic concepts needed to perform simple operations within your own repository. If you want to use git on a regular basis or in a professional environment, you should complete a more comprehensive tutorial.</p>
+<p>Git is a powerful and complex tool. This article covers only the most basic concepts needed to perform simple operations within your own repository. If you want to use Git on a regular basis or in a professional environment, you should complete a more comprehensive tutorial.</p>
 <h3 id="git-glossary">Git glossary</h3>
-<p>Here are the explanations of the basic terms you need to know to understand git.</p>
+<p>Here are the explanations of the basic terms you need to know to understand Git.</p>
 <h4 id="repository">Repository</h4>
-<p>A repository is the central element of a git-controlled project. It stores all the data: files, branches, history, and so on.</p>
+<p>A repository is the central element of a Git-controlled project. It stores all the data: files, branches, history, and so on.</p>
 <h4 id="branch">Branch</h4>
-<p>By default, a repository only includes a <em>master</em> branch which stores the files released into production. When you&rsquo;re working on a personal project and learning to use git, you do not need to create any other branches.</p>
+<p>By default, a repository only includes a <em>master</em> branch which stores the files released into production. When you&rsquo;re working on a personal project and learning to use Git, you do not need to create any other branches.</p>
 <p>Additional branches (in this guide, they are called working branches, but the nomenclature differs depending on the applied work methodology) may be created from the master branch (or other working branches) at any time to work on different features of a project. Development work can be in progress on many branches at the same time.</p>
 <p>When the work is complete, the commits from the branch are merged into the master branch.</p>
 <p>You can create local branches and never push them to origin. This can be useful for testing purposes.</p>
@@ -410,7 +379,7 @@ https://github.com/alex-shpak/hugo-book
 <p>When you check out a branch, you set it as your current working branch.</p>
 <p>Checking out can also be used to create a new local branch.</p>
 <h4 id="commit">Commit</h4>
-<p>A commit can be understood as saving your work to the branch you are currently working on (most of the time, it is a local branch). As the name implies, you are making a commitment, informing git that the changes are final.<br>
+<p>A commit can be understood as saving your work to the branch you are currently working on (most of the time, it is a local branch). As the name implies, you are making a commitment, informing Git that the changes are final.<br>
 Cancelling a commit is much more difficult than reverting the changes in a text editor.<br>
 When committing, you can choose some of the files you modified, or add all of them to the commit.<br>
 Commits can be made with a message. It is good practice to add meaningful, short commit messages.<br>
@@ -431,7 +400,7 @@ You can make a series of commits locally before pushing your work to the cloud.<
 <p>A pull request lets you compare the changes that will be introduced into the target branch when merging. It may be configured so that it requires a review and acceptance from someone. After a pull request is made, you can still work on the files on the source branch and make changes according to comments made in the pull request.</p>
 <p>Repositories are often configure so that a pull request is the only way to introduce changes to the master branch.</p>
 <h3 id="git-workflow-example">Git workflow example</h3>
-<p>A simple example of how git may be used:</p>
+<p>A simple example of how Git may be used:</p>
 <ol>
 <li>Marcin clones a repository to his local drive.</li>
 <li>He creates a new branch locally or checks out an existing branch.</li>
@@ -448,29 +417,29 @@ You can make a series of commits locally before pushing your work to the cloud.<
 </ol>
 <h2 id="git-guis">Git GUIs</h2>
 <p>Git can be used entirely from the Terminal, but to make your work easier, you can use GUIs such as SourceTree or text editor plugins.<br>
-<strong>Note:</strong> To use the GUIs effectively, you must understand the basic concepts of git first, even if you plan to never use git in the Terminal.</p>
-<h2 id="installing-git">Installing git</h2>
-<p>Before you can start using git, you need to install it in your system.</p>
+<strong>Note:</strong> To use the GUIs effectively, you must understand the basic concepts of Git first, even if you plan to never use Git in the Terminal.</p>
+<h2 id="installing-git">Installing Git</h2>
+<p>Before you can start using Git, you need to install it in your system.</p>
 <ol>
 <li>Open the Terminal by pressing <strong><code>CTRL</code> + <code>ALT</code> + <code>T</code></strong>.</li>
 <li>Check if git is installed by entering <code>git --version</code></li>
 <li>Perform one of the following actions:
 <ul>
 <li>If the output displays a version number, no further actions are required.</li>
-<li>If the output say the <code>git</code> command was not found, install git by performing the following actions:
+<li>If the output say the <code>git</code> command was not found, install Git by performing the following actions:
 <ol>
 <li>Enter <code>sudo apt install git</code>.</li>
 <li>If prompted, enter the password.</li>
 <li>When asked if you want to continue, enter <code>y</code>
-<strong>Result:</strong> git is downloaded and installed. Required dependencies are installed automatically.</li>
+<strong>Result:</strong> Git is downloaded and installed. Required dependencies are installed automatically.</li>
 </ol>
 </li>
 </ul>
 </li>
-<li>Set your git credentials by performing the following steps:
+<li>Set your Git credentials by performing the following steps:
 <ol>
 <li>Enter <code>git config --global user.email &quot;{your email}&quot;</code></li>
-<li>Enter <code>git config --global user.name &quot;{your name}</code></li>
+<li>Enter <code>git config --global user.name &quot;{your name}&quot;</code></li>
 </ol>
 </li>
 </ol>
@@ -508,14 +477,14 @@ You can make a series of commits locally before pushing your work to the cloud.<
       
   <nav id="TableOfContents">
   <ul>
-    <li><a href="#what-is-git">What is git?</a>
+    <li><a href="#what-is-git">What is Git?</a>
       <ul>
         <li><a href="#git-glossary">Git glossary</a></li>
         <li><a href="#git-workflow-example">Git workflow example</a></li>
       </ul>
     </li>
     <li><a href="#git-guis">Git GUIs</a></li>
-    <li><a href="#installing-git">Installing git</a></li>
+    <li><a href="#installing-git">Installing Git</a></li>
   </ul>
 </nav>
 

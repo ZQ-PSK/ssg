@@ -16,7 +16,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://zq-psk.github.io/ssg/docs/github/git/</guid>
-      <description>Git basics What is git? Git is a distributed version control system. It is free, open source, and popular with software developers worldwide.
+      <description>Git basics What is Git? Git is a distributed version control system. It is free, open source, and popular with software developers worldwide.
 Git stores information about incremental changes, which means you can see and compare how a file changed over a long period of time, and control what is included in the production environment.
 Git is a powerful and complex tool. This article covers only the most basic concepts needed to perform simple operations within your own repository.</description>
     </item>
@@ -39,7 +39,7 @@ A puzzle appears. Solve the puzzle according to the instructions on the screen. 
       
       <guid>https://zq-psk.github.io/ssg/docs/github/repository/</guid>
       <description>GitHub repository After your content is uploaded to a GitHub repository, you can start versioning your source files and keeping a history of changes.
-Before you continue, ensure that you installed git.
+Before you continue, ensure that you installed Git.
 Creating a repository  Log in to GitHub. In the menu on the left, click New. In the Repository name field, enter a meaningful name.
 NOTE: If you host a project site from this repository, the name is part of the URL.</description>
     </item>
