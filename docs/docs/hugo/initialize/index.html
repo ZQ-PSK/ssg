@@ -4,15 +4,19 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="VS Codium Installing VS Codium on Ubuntu  Open the Ubuntu Software application.
-By default, the application is available from the application bar on the left side of the screen. In the upper-left corner of the application window, click the search icon. In the search field that opens, enter VS Codium In the results, click VS Codium. In the application details that open, click Install. In the pop-up that opens, enter your user password and press ENTER.">
-<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="VSC" />
-<meta property="og:description" content="VS Codium Installing VS Codium on Ubuntu  Open the Ubuntu Software application.
-By default, the application is available from the application bar on the left side of the screen. In the upper-left corner of the application window, click the search icon. In the search field that opens, enter VS Codium In the results, click VS Codium. In the application details that open, click Install. In the pop-up that opens, enter your user password and press ENTER." />
+<meta name="description" content="Initializing a site  Open the Terminal by pressing CTRL &#43; SHIFT &#43; T. Navigate to the parent directory of your repository.
+Example  marcin@marcin-HP:~$ cd Documents/gitRepositories Verify that the repository catalog exists.
+Example  marcin@marcin-HP:~/Documents/gitRepositories$ ls myRepository  Enter hugo new site {repository dir}
+Example: hugo new site myRepository Result: An empty site is created. To serve the site on your machine, perform the following steps:  Enter cd {repository dir} Enter hugo server Result: By default, the site is available at http://localhost:1313/.">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="Initializing a site" />
+<meta property="og:description" content="Initializing a site  Open the Terminal by pressing CTRL &#43; SHIFT &#43; T. Navigate to the parent directory of your repository.
+Example  marcin@marcin-HP:~$ cd Documents/gitRepositories Verify that the repository catalog exists.
+Example  marcin@marcin-HP:~/Documents/gitRepositories$ ls myRepository  Enter hugo new site {repository dir}
+Example: hugo new site myRepository Result: An empty site is created. To serve the site on your machine, perform the following steps:  Enter cd {repository dir} Enter hugo server Result: By default, the site is available at http://localhost:1313/." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/docs/vscodium/vsc/" />
+<meta property="og:url" content="/docs/hugo/initialize/" />
 
-<title>VSC | Marcin Misiak - writing samples</title>
+<title>Initializing a site | Marcin Misiak - writing samples</title>
 <link rel="manifest" href="../../../manifest.json">
 <link rel="icon" href="../../../favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="../../../book.min.6df681b0bb21155cba49f6078e3559216772d8e03e780d240c73ea21817ed5e5.css" integrity="sha256-bfaBsLshFVy6SfYHjjVZIWdy2OA&#43;eA0kDHPqIYF&#43;1eU=">
@@ -94,7 +98,7 @@ https://github.com/alex-shpak/hugo-book
         <li>
           
   
-    <a href="../../../docs/hugo/initialize/" class="">Initializing a site</a>
+    <a href="../../../docs/hugo/initialize/" class="active">Initializing a site</a>
   
 
         </li>
@@ -248,7 +252,7 @@ https://github.com/alex-shpak/hugo-book
         <li>
           
   
-    <a href="../../../docs/vscodium/vsc/" class="active">VSC</a>
+    <a href="../../../docs/vscodium/vsc/" class="">VSC</a>
   
 
         </li>
@@ -296,7 +300,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="../../../svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>VSC</strong>
+  <strong>Initializing a site</strong>
 
   <label for="toc-control">
     <img src="../../../svg/toc.svg" class="book-icon" alt="Table of Contents" />
@@ -308,11 +312,7 @@ https://github.com/alex-shpak/hugo-book
     <input type="checkbox" class="hidden" id="toc-control" />
     <aside class="hidden clearfix">
       
-  <nav id="TableOfContents">
-  <ul>
-    <li><a href="#installing-vs-codium-on-ubuntu">Installing VS Codium on Ubuntu</a></li>
-  </ul>
-</nav>
+  <nav id="TableOfContents"></nav>
 
 
     </aside>
@@ -322,18 +322,40 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown"><h1 id="vs-codium">VS Codium</h1>
-<h2 id="installing-vs-codium-on-ubuntu">Installing VS Codium on Ubuntu</h2>
+  <article class="markdown"><h1 id="initializing-a-site">Initializing a site</h1>
 <ol>
-<li>Open the Ubuntu Software application.<br>
-By default, the application is available from the application bar on the left side of the screen.</li>
-<li>In the upper-left corner of the application window, click the search icon.</li>
-<li>In the search field that opens, enter <code>VS Codium</code></li>
-<li>In the results, click <strong>VS Codium</strong>.</li>
-<li>In the application details that open, click <strong>Install</strong>.</li>
-<li>In the pop-up that opens, enter your user password and press <strong><code>ENTER</code></strong>.
-<strong>Result</strong> The application is downloaded and installed.</li>
+<li>Open the Terminal by pressing <strong><code>CTRL</code> + <code>SHIFT</code> + <code>T</code></strong>.</li>
+<li>Navigate to the parent directory of your repository.<br>
+<strong>Example</strong></li>
 </ol>
+<pre><code>marcin@marcin-HP:~$ cd Documents/gitRepositories
+
+</code></pre><ol start="3">
+<li>Verify that the repository catalog exists.<br>
+<strong>Example</strong></li>
+</ol>
+<pre><code>marcin@marcin-HP:~/Documents/gitRepositories$ ls
+myRepository
+
+</code></pre><ol>
+<li>Enter <code>hugo new site {repository dir}</code><br>
+<strong>Example</strong>: <code>hugo new site myRepository</code>
+<strong>Result</strong>: An empty site is created.</li>
+<li>To serve the site on your machine, perform the following steps:
+<ol>
+<li>Enter <code>cd {repository dir}</code></li>
+<li>Enter <code>hugo server</code>
+<strong>Result</strong>: By default, the site is available at <a href="http://localhost:1313/">http://localhost:1313/</a>.  Initially, the site has no content and you can only see a blank page.
+If another site is running locally under port 1313, Hugo automatically selects a different port. You can find the current address in the output of the <code>hugo server</code> command:</li>
+</ol>
+</li>
+</ol>
+<pre><code>...
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://localhost:45353/ (bind address 127.0.0.1)
+Press Ctrl+C to stop
+...
+</code></pre><pre><code>3. Return to the Terminal window and stop the site by pressing **`CTRL` + `C`**.</code></pre>
 </article>
  
       
@@ -366,11 +388,7 @@ By default, the application is available from the application bar on the left si
     
     <aside class="book-toc">
       
-  <nav id="TableOfContents">
-  <ul>
-    <li><a href="#installing-vs-codium-on-ubuntu">Installing VS Codium on Ubuntu</a></li>
-  </ul>
-</nav>
+  <nav id="TableOfContents"></nav>
 
  
     </aside>

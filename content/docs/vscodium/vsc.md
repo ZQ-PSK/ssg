@@ -1,5 +1,5 @@
 ---
-title: "VSC"
+title: "VS Codium"
 weight:
 description: ""
 ---

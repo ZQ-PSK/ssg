@@ -3,3 +3,5 @@ languageCode = "en-us"
 title = "Marcin Misiak - writing samples"
 theme = "hugo-book"
 relativeURLs = true
+[params]
+    BookRepo = 'https://github.com/ZQ-PSK/ssg'

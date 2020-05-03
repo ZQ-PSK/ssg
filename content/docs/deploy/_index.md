@@ -1,5 +1,6 @@
 ---
 title: GitHub Pages
+weight: 15
 ---
 
 # GitHub Pages
