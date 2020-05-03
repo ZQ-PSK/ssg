@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on GitHub Pages</title>
-    <link>https://github.com/ZQ-PSK/ssg/</link>
+    <link>https://zq-psk.github.io/ssg/</link>
     <description>Recent content on Hugo on GitHub Pages</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://github.com/ZQ-PSK/ssg/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zq-psk.github.io/ssg/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Adding articles</title>
-      <link>https://github.com/ZQ-PSK/ssg/docs/hugo/articles/add/</link>
+      <link>https://zq-psk.github.io/ssg/docs/hugo/articles/add/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/ZQ-PSK/ssg/docs/hugo/articles/add/</guid>
+      <guid>https://zq-psk.github.io/ssg/docs/hugo/articles/add/</guid>
       <description>Adding articles  Open the content/docs folder. Create a new Markdown file.
 The name of the file will be visible in the URL of the article. Open the new file with a text editor. At the beginning of the file, add the following metadata:  title (string) weight (integer) description (string) optional: other metadata that your site uses    Example:
 --- title: &amp;quot;Content&amp;quot; weight: 20 description: &amp;quot;Short description&amp;quot; customParam: &amp;quot;string&amp;quot; customArrayParam: - &amp;quot;string&amp;quot; - &amp;quot;string&amp;quot; --- After the metadata block, add the Markdown content.</description>
@@ -23,38 +23,38 @@ The name of the file will be visible in the URL of the article. Open the new fil
     
     <item>
       <title>Git basics</title>
-      <link>https://github.com/ZQ-PSK/ssg/docs/github/git/</link>
+      <link>https://zq-psk.github.io/ssg/docs/github/git/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/ZQ-PSK/ssg/docs/github/git/</guid>
+      <guid>https://zq-psk.github.io/ssg/docs/github/git/</guid>
       <description>Git basics Installing git  Open the Terminal by pressing CTRL + ALT + T. Check if git is installed by entering git --version Perform one of the following actions:  If the output displays a version number, no further actions are required. If the output say the git command was not found, install git by performing the following actions:  Enter sudo apt install git. If prompted, enter the password.</description>
     </item>
     
     <item>
       <title>Installing Hugo</title>
-      <link>https://github.com/ZQ-PSK/ssg/docs/hugo/install/</link>
+      <link>https://zq-psk.github.io/ssg/docs/hugo/install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/ZQ-PSK/ssg/docs/hugo/install/</guid>
+      <guid>https://zq-psk.github.io/ssg/docs/hugo/install/</guid>
       <description>Installing Hugo on Ubuntu Hugo offers a few installation methods. The method described in this procedure lets you control the version you are installing and installs it globally.
  Go to the Hugo releases page. Choose a release :  If you are preparing to create a new site, choose the latest release. If you are going to work with an existing site, on the list locate the same release that the site is deployed with.</description>
     </item>
     
     <item>
       <title>Preparing for GitHub Pages deployment</title>
-      <link>https://github.com/ZQ-PSK/ssg/docs/deploy/prep/</link>
+      <link>https://zq-psk.github.io/ssg/docs/deploy/prep/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/ZQ-PSK/ssg/docs/deploy/prep/</guid>
+      <guid>https://zq-psk.github.io/ssg/docs/deploy/prep/</guid>
       <description>Configuring Hugo for GitHub Pages deployment  In the root folder of your repository, open the config.toml file. In the configuration file, search for the publishDir setting. Perform one of the following actions:  If the setting exists, change its value to &amp;quot;docs&amp;quot; If the setting does not exist, create it by adding the following line to the file: publishDir = &amp;quot;docs&amp;quot;   Add the following line: relativeURLs = true</description>
     </item>
     
     <item>
       <title>Deploying the site</title>
-      <link>https://github.com/ZQ-PSK/ssg/docs/deploy/deploy/</link>
+      <link>https://zq-psk.github.io/ssg/docs/deploy/deploy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/ZQ-PSK/ssg/docs/deploy/deploy/</guid>
+      <guid>https://zq-psk.github.io/ssg/docs/deploy/deploy/</guid>
       <description>Site deployment Building the site  In the file explorer, open the root folder of your repository. If the docs folder exists, delete it.
 IMPORTANT: This does not apply to the content/docs/ folder. Right-click Enter hugo
 Result: The static site is built in the docs directory. Commit the changes in the docs directory. Perform one of the following actions:  If you are working on the &amp;ldquo;master&amp;rdquo; branch, push to &amp;ldquo;origin/master&amp;rdquo;.</description>
@@ -62,10 +62,10 @@ Result: The static site is built in the docs directory. Commit the changes in th
     
     <item>
       <title>GitHub account</title>
-      <link>https://github.com/ZQ-PSK/ssg/docs/github/account/</link>
+      <link>https://zq-psk.github.io/ssg/docs/github/account/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/ZQ-PSK/ssg/docs/github/account/</guid>
+      <guid>https://zq-psk.github.io/ssg/docs/github/account/</guid>
       <description>GitHub account Creating a GitHub account A free GitHub account lets you access the basic features.
  Go to https://github.com/. Fill in the following fields:  Username Email Password   Click Sign up for GitHub. In the page that opens, perform the following actions:  Click Verify.
 A puzzle appears. Solve the puzzle according to the instructions on the screen. Click Join a free plan. Result: A page opens, asking for more information about your work profile.</description>
@@ -73,10 +73,10 @@ A puzzle appears. Solve the puzzle according to the instructions on the screen. 
     
     <item>
       <title>Initializing a site</title>
-      <link>https://github.com/ZQ-PSK/ssg/docs/hugo/initialize/</link>
+      <link>https://zq-psk.github.io/ssg/docs/hugo/initialize/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/ZQ-PSK/ssg/docs/hugo/initialize/</guid>
+      <guid>https://zq-psk.github.io/ssg/docs/hugo/initialize/</guid>
       <description>Initializing a site  Open the Terminal by pressing CTRL + ALT + T. Navigate to the parent directory of your repository.
 Example  marcin@marcin-HP:~$ cd Documents/gitRepositories Verify that the repository catalog exists.
 Example  marcin@marcin-HP:~/Documents/gitRepositories$ ls myRepository  Enter hugo new site {repository dir}
@@ -85,10 +85,10 @@ Example: hugo new site myRepository Result: An empty site is created. To serve t
     
     <item>
       <title>Themes</title>
-      <link>https://github.com/ZQ-PSK/ssg/docs/hugo/themes/</link>
+      <link>https://zq-psk.github.io/ssg/docs/hugo/themes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/ZQ-PSK/ssg/docs/hugo/themes/</guid>
+      <guid>https://zq-psk.github.io/ssg/docs/hugo/themes/</guid>
       <description>Themes Adding a theme To give your website a layout, you must add a theme. The procedure explains how to download a theme and make it a part of your repository, so you can make modifications without affecting the original theme.
  Go to the Hugo themes site. Browse the list of themes.
 This page uses the book theme. Go the GitHub page of the theme&amp;rsquo;s repository. Click Clone or download.</description>
@@ -96,10 +96,10 @@ This page uses the book theme. Go the GitHub page of the theme&amp;rsquo;s repos
     
     <item>
       <title>GitHub repository</title>
-      <link>https://github.com/ZQ-PSK/ssg/docs/github/repository/</link>
+      <link>https://zq-psk.github.io/ssg/docs/github/repository/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/ZQ-PSK/ssg/docs/github/repository/</guid>
+      <guid>https://zq-psk.github.io/ssg/docs/github/repository/</guid>
       <description>GitHub repository Creating a repository  Log in to GitHub. In the menu on the left, click New. In the Repository name field, enter a meaningful name.
 NOTE: If you host a project site from this repository, the name is part of the URL. Optional: In the Description field, enter a description. Make the repository public or private by selecting the corresponding radio button. Click Create repository.
 Result An empty repository is created.</description>
@@ -107,10 +107,10 @@ Result An empty repository is created.</description>
     
     <item>
       <title>Reviewing the output</title>
-      <link>https://github.com/ZQ-PSK/ssg/docs/hugo/articles/review/</link>
+      <link>https://zq-psk.github.io/ssg/docs/hugo/articles/review/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/ZQ-PSK/ssg/docs/hugo/articles/review/</guid>
+      <guid>https://zq-psk.github.io/ssg/docs/hugo/articles/review/</guid>
       <description>Reviewing the output. Before publishing your site to GitHub Pages, you should review the output locally. GitHub Pages do not provide an on-line staging environment and the static site pushed to &amp;ldquo;origin/master&amp;rdquo; is published immediately.
 Hosting the preview  Open the Terminal by pressing CTRL + ALT + T. Navigate to the root folder of your repository. Enter hugo server.
 Result: The site is hosted locally on your system. By default, the site is available at http://localhost:1313/.</description>
@@ -118,10 +118,10 @@ Result: The site is hosted locally on your system. By default, the site is avail
     
     <item>
       <title>VS Codium</title>
-      <link>https://github.com/ZQ-PSK/ssg/docs/vscodium/vsc/</link>
+      <link>https://zq-psk.github.io/ssg/docs/vscodium/vsc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/ZQ-PSK/ssg/docs/vscodium/vsc/</guid>
+      <guid>https://zq-psk.github.io/ssg/docs/vscodium/vsc/</guid>
       <description>VS Codium Installing VS Codium on Ubuntu  Open the Ubuntu Software application.
 By default, the application is available from the application bar on the left side of the screen. In the upper-left corner of the application window, click the search icon. In the search field that opens, enter VS Codium In the results, click VS Codium. In the application details that open, click Install. In the pop-up that opens, enter your user password and press ENTER.</description>
     </item>
