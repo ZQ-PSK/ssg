@@ -30,4 +30,4 @@ customArrayParam:
 5. After the metadata block, add the Markdown content.
 6. Save the file.
 7. Verify that the output is correct.  
-See [Reviewing the output](/docs/hugo/articles/review)
+See [Reviewing the output](/docs/hugo/articles/review).

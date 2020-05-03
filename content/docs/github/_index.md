@@ -3,7 +3,5 @@ title: "GitHub"
 weight: 10
 description: ""
 ---
-# Introduction
-Assumes the use of Ubuntu.
-
 # GitHub
+GitHub is a cloud service for working with [git](/docs/github/git) repositories.

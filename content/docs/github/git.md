@@ -4,7 +4,75 @@ weight: 5
 description: ""
 ---
 # Git basics
+## What is git?
+Git is a distributed version control system. It is free and open source. 
+
+When working with git, your work is stored in a *repository* and saved using *commits*.  
+If more people work together on a project, or a single person works on a few elements of the same project at the same time, the work usually happens on *branches* which are later *merged* into the *master branch*.
+
+Git is a powerful tool. This article covers only the most basic concepts that will allow you to work with your own repository.
+
+### Git glossary
+Here are the explanations of the basic terms you need to know to understand git. The details on how to perform the operations are explained further in this guide.
+#### Repository
+A repository is the central element of a git-controlled projects. It stores all the data: files, branches,history, access rights, and so on.
+#### Origin
+The origin branches are the branches stored in the original repository (in the case of this site, the origin repository is stored in the GitHub cloud service).
+#### Local
+The local copy of the repository resides on your hard drive. Changes made on local branches must be *pushed* to the origin counterparts of those branches. If you do not do that, the changes remain visible only on your hard drive.
+#### Branch
+By default, a repository only includes a *master* branch which stores the files released into production. When you're working on a personal project and learning to use git, you do not need to create any other branches.  
+
+Additional branches (in this guide, they are called working branches, but the nomenclature differs depending on the applied work methodology) may be created from the master branch (or other working branches) at any time to work on different features of a project. Development work can be in progress on many branches at the same time.
+
+When the work is complete, the commits from the branch are merged into the master branch.
+
+You can create local branches and never push them to origin. This can be useful for testing purposes.
+#### Checkout
+When you check out a branch, you set it as your current working branch.
+
+Checking out can also be used to create a new local branch.
+#### Commit
+A commit can be understood as saving your work to the branch you are currently working on (most of the time, it is a local branch). As the name implies, you are making a commitment, informing git that the changes are final.  
+Cancelling a commit is much more difficult than reverting the changes in a text editor.  
+When committing, you can choose some of the files you modified, or add all of them to the commit.  
+Commits can be made with a message. It's good practice to add meaningful, short commit messages.  
+You can make a series of commits locally before pushing your work to the cloud.
+#### Push
+Pushing means uploading the commits from your local branch to its origin counterpart.
+#### Merge
+A merge transfers the commits form one branch to another. Merges are usually done into the master branch, but you can also merge working branches into one another.
+
+Another common use is merging the master branch into the working branch in order to keep the working branch up-to-date with the latest production changes.
+#### Pull request
+When you want to merge the changes from a working branch into the master branch (or any other branch), you can do it by creating a *pull request*.
+
+A pull request lets you compare the changes that will be introduced into the target branch when merging. It may be configured so that it requires a review and acceptance from someone.
+
+You can configure the master branch to be modifiable only be pull requests made from other branches.
+#### Cloning
+The operation that downloads a repository from the origin to your local drive.
+### Git workflow example
+
+A simple example of how git may be used used:
+1. Marcin clones a repository to his local drive.
+2. He creates a new branch locally or checks out an existing branch.
+3. He contributor makes changes to some files.
+4. He commits the changes the the local branch.
+5. He pushes the commits to the origin branch.
+6. Using the GitHub GUI, he creates a pull request.
+7. Marcin's teammates review the pull request and submit their approvals.
+8. Marcin accepts the pull request and the changes are merged into the master branch.
+9. The content of the master branch is published to production, making it available to the clients.
+10. Marcin deletes the working branch from local and origin.
+11. When he wants to introduce more changes, Marcin creates a new branch for that work.
+
+## Git GUIs
+Git can be used entirely from the Terminal, but to make your work easier, you can use GUIs such as SourceTree or text editor plugins.
+**Note:** to use the GUIs effectively, you must understand the basic concepts of git first. This does not require 
+
 ## Installing git
+Before you can start using git, you need to install it in your system.
 
 1. Open the Terminal by pressing **`CTRL` + `ALT` + `T`**.
 1. Check if git is installed by entering `git --version`
@@ -18,3 +86,6 @@ description: ""
 3. Set your git credentials by performing the following steps:
    1. Enter `git config --global user.email "{your email}"`
    2. Enter `git config --global user.name "{your name}`
+
+## Commit in practice
+The first commit can be made after you [create a repository](/docs/github/repository).
