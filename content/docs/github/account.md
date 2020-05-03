@@ -31,7 +31,7 @@ A free GitHub account lets you access the basic features needed to deploy a pers
    - Ignore the tutorials by clicking **Skip this for now**.
    - Become familiar with the tutorial content.
 
-**Result:** Your GitHub account is ready to use.
+**Result:** Your GitHub account is ready to use. To be able to commit and push from your local drive, [add an SSH key to your account](#adding-an-ssh-key-to-github).
 
 ## Adding an SSH key to GitHub
 An SSH key is necessary to authorize Git requests sent from your local machine to GitHub.
