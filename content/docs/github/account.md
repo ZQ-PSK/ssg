@@ -18,12 +18,12 @@ A free GitHub account lets you access the basic features needed to deploy a pers
    1. Click **Verify**.  
    A puzzle appears.
    1. Solve the puzzle according to the instructions on the screen.
-   2. Click **Join a free plan**.
+   2. Click **Join a free plan**.  
    **Result:** A page opens, asking for more information about your work profile.
 5. **Optional:** Provide the additional information.
 6. Click **Complete**.  
-**Result:**: GitHub sends a verification email to the address you provided earlier.
-1. In the email, click **Verify email address**.
+**Result:** GitHub sends a verification email to the address you provided earlier.
+1. In the email, click **Verify email address**.  
 **Result:** The verification page opens.
 8. If prompted, log in to GitHub.  
 **Result:** Your account is verified.
@@ -50,18 +50,18 @@ An SSH key is necessary to authorize git requests sent from your local machine t
       - To change the location, enter the new location.
    3. When prompted to enter a passphrase, perform one of the following actions:
       - To use a passphrase, enter and repeat the passphrase.
-      - To save the key without a passphrase, press **`ENTER`**.
+      - To save the key without a passphrase, press **`ENTER`**.  
       **Result:** The key is saved to a file.
 5. <span id="5">Add your private key to the ssh-agent by performing the following actions:</span>
    1. Enter `eval "$(ssh-agent -s)"`  
    **Result:** The ssh-agent starts running in the background.
    1. Enter `ssh-add {path to private key file}`  
-   TIP: The default path is `~/.ssh/id_rsa`
+   **Tip:** The default path is `~/.ssh/id_rsa`  
    **Example:** `ssh-add ~/.ssh/id_rsa`
    1. If prompted, enter the passphrase.
 6. Copy the SSH key to the clipboard by performing the following actions:
    1. Enter `gedit <path to public key file>`  
-   TIP: The default path is `~/.ssh/id_rsa.pub`
+   **Tip:** The default path is `~/.ssh/id_rsa.pub`
    1. From the text editor window that opens, copy all the contents into the clipboard.
    2. Close the text editor.
 7. Log in to GitHub.
@@ -72,5 +72,5 @@ An SSH key is necessary to authorize git requests sent from your local machine t
    **Example:** `John's personal laptop`
 12. In the **Key** field, paste the public SSH key.
 13. Click **Add SSH key**.
-14. Enter your GitHub password.
+14. Enter your GitHub password.  
 **Result:** The system is authorized to perform git operations on your GitHub account.

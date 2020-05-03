@@ -95,4 +95,4 @@ Before you can start using git, you need to install it in your system.
      **Result:** git is downloaded and installed. Required dependencies are installed automatically.
 3. Set your git credentials by performing the following steps:
    1. Enter `git config --global user.email "{your email}"`
-   2. Enter `git config --global user.name "{your name}`
+   2. Enter `git config --global user.name "{your name}"`
