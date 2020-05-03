@@ -10,11 +10,10 @@ Before you can add styling and content to a site, you must initialize a folder s
 **NOTE:** Whenever this page mentions *project folder*, it refers to this folder.
 3. Open the Terminal by pressing **`CTRL` + `ALT` + `T`**.
 4. Navigate to the project folder by using the `cd` command.  
-**Example**
-```
-marcin@marcin-HP:~$ cd Documents/gitRepositories/myHugoSite
-
-```  
+**Example:**
+   ```
+   marcin@marcin-HP:~$ cd Documents/gitRepositories/myHugoSite
+   ```
 1. Enter `hugo new site .`  
 **Result**: An empty site is created.
 1. To serve the site on your machine, perform the following steps:
