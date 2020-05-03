@@ -1,9 +1,23 @@
 publishDir = "docs"
 languageCode = "en-us"
-title = "Hugo on GitHub Pages"
+title = "Marcin Misiak - writing samples"
 theme = "hugo-book"
 canonifyURLs = true
 baseURL = "https://zq-psk.github.io/ssg/"
 # enableGitInfo = true
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
 [params]
     BookRepo = 'https://github.com/ZQ-PSK/ssg'
+
+[[menu.after]]
+  name = "Author's profile"
+  url = "https://www.linkedin.com/in/marcin-misiak-70836aa4/"
+  weight = 5
+
+[[menu.after]]
+  name = "GitHub source"
+  url = "https://github.com/ZQ-PSK/ssg"
+  weight = 10

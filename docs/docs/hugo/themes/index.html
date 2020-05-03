@@ -4,21 +4,17 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Themes Adding a theme To give your website a layout, you must add a theme. The procedure explains how to download a theme and make it a part of your repository, so you can make modifications without affecting the original theme.
- Go to the Hugo themes site. Browse the list of themes.
-This page uses the book theme. Go the GitHub page of the theme&rsquo;s repository. Click Clone or download.">
+<meta name="description" content="Hugo offers a number of free ready-to-use themes">
 <meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="Themes" />
-<meta property="og:description" content="Themes Adding a theme To give your website a layout, you must add a theme. The procedure explains how to download a theme and make it a part of your repository, so you can make modifications without affecting the original theme.
- Go to the Hugo themes site. Browse the list of themes.
-This page uses the book theme. Go the GitHub page of the theme&rsquo;s repository. Click Clone or download." />
+<meta property="og:description" content="Hugo offers a number of free ready-to-use themes" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://zq-psk.github.io/ssg/docs/hugo/themes/" />
 
-<title>Themes | Hugo on GitHub Pages</title>
+<title>Themes | Marcin Misiak - writing samples</title>
 <link rel="manifest" href="https://zq-psk.github.io/ssg/manifest.json">
 <link rel="icon" href="https://zq-psk.github.io/ssg/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="https://zq-psk.github.io/ssg/book.min.6df681b0bb21155cba49f6078e3559216772d8e03e780d240c73ea21817ed5e5.css" integrity="sha256-bfaBsLshFVy6SfYHjjVZIWdy2OA&#43;eA0kDHPqIYF&#43;1eU=">
-<script defer src="https://zq-psk.github.io/ssg/en.search.min.fabd8887d210a67a922eb1419b38647837522a6676c01052e78643df9fc0fd65.js" integrity="sha256-&#43;r2Ih9IQpnqSLrFBmzhkeDdSKmZ2wBBS54ZD35/A/WU="></script>
+<script defer src="https://zq-psk.github.io/ssg/en.search.min.b15fc096111e2b96c67e1a2fd214d09ff47f055a4bde41a13f1ab4ad3f40c49e.js" integrity="sha256-sV/AlhEeK5bGfhov0hTQn/R/BVpL3kGhPxq0rT9AxJ4="></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -34,7 +30,7 @@ https://github.com/alex-shpak/hugo-book
       
   <nav>
 <h2 class="book-brand">
-  <a href="https://zq-psk.github.io/ssg/"><span>Hugo on GitHub Pages</span>
+  <a href="https://zq-psk.github.io/ssg/"><span>Marcin Misiak - writing samples</span>
   </a>
 </h2>
 
@@ -86,7 +82,7 @@ https://github.com/alex-shpak/hugo-book
         <li>
           
   
-    <a href="https://zq-psk.github.io/ssg/docs/hugo/install/" class="">Installing Hugo</a>
+    <a href="https://zq-psk.github.io/ssg/docs/hugo/install/" class="">Installation</a>
   
 
         </li>
@@ -141,13 +137,7 @@ https://github.com/alex-shpak/hugo-book
         <li>
           
   
-    <a href="https://zq-psk.github.io/ssg/docs/hugo/articles/review/" class="">Reviewing the output</a>
-  
-
-        </li>
-      
-    
-  </ul>
+    <a href="https://zq-psk.github.io/ssg/docs/hugo/articles/enrich/" class="">Content enrichment</a>
   
 
         </li>
@@ -157,7 +147,13 @@ https://github.com/alex-shpak/hugo-book
         <li>
           
   
-    <a href="https://zq-psk.github.io/ssg/docs/hugo/config/" class="">Hugo configuration files</a>
+    <a href="https://zq-psk.github.io/ssg/docs/hugo/articles/review/" class="">Reviewing the output</a>
+  
+
+        </li>
+      
+    
+  </ul>
   
 
         </li>
@@ -255,6 +251,16 @@ https://github.com/alex-shpak/hugo-book
         </li>
       
     
+      
+        <li>
+          
+  
+    <a href="https://zq-psk.github.io/ssg/docs/deploy/troubleshooting/" class="">Troubleshooting GitHub Pages</a>
+  
+
+        </li>
+      
+    
   </ul>
   
 
@@ -305,6 +311,24 @@ https://github.com/alex-shpak/hugo-book
 
 
 
+  
+<ul>
+  
+  <li>
+    <a href="https://www.linkedin.com/in/marcin-misiak-70836aa4/" target="_blank" rel="noopener">
+        Author&#39;s profile
+      </a>
+  </li>
+  
+  <li>
+    <a href="https://github.com/ZQ-PSK/ssg" target="_blank" rel="noopener">
+        GitHub source
+      </a>
+  </li>
+  
+</ul>
+
+
 
 
 
@@ -343,6 +367,7 @@ https://github.com/alex-shpak/hugo-book
   <nav id="TableOfContents">
   <ul>
     <li><a href="#adding-a-theme">Adding a theme</a></li>
+    <li><a href="#theme-specific-features">Theme-specific features</a></li>
   </ul>
 </nav>
 
@@ -355,23 +380,26 @@ https://github.com/alex-shpak/hugo-book
       
       
   <article class="markdown"><h1 id="themes">Themes</h1>
+<p>To give your website a graphical layout, you must add a theme.</p>
+<p>You can also create your own theme from scratch. This requires knowledge of HTML, CSS, JS, and Hugo templating.</p>
 <h2 id="adding-a-theme">Adding a theme</h2>
-<p>To give your website a layout, you must add a theme. The procedure explains how to download a theme and make it a part of your repository, so you can make modifications without affecting the original theme.</p>
+<p>This procedure explains how to download a theme and use it without connection to the theme&rsquo;s original repository. This allows you to easily introduce your own modifications or update the theme at your own pace.<br>
+<strong>IMPORTANT:</strong> Before making any changes to a theme, verify that the license allows it and to what extent. License information is available on the theme&rsquo;s homepage.</p>
 <ol>
 <li>Go to the <a href="https://themes.gohugo.io/">Hugo themes site</a>.</li>
-<li>Browse the list of themes.<br>
+<li>From the list, select a theme.
 This page uses the <a href="https://themes.gohugo.io/hugo-book/">book theme</a>.</li>
 <li>Go the GitHub page of the theme&rsquo;s repository.</li>
 <li>Click <strong>Clone or download</strong>.</li>
 <li>Click <strong>Download ZIP</strong>.</li>
-<li>Save the file to your local drive.</li>
+<li>Save the file to your local drive (not to your project folder).</li>
 <li>Extract the files.</li>
-<li>In your repository, in the <code>themes/</code> folder, create a folder named after the theme.</li>
-<li>Copy the extracted files into the theme folder.</li>
-<li>In the root folder of the repository, open the <code>config.toml</code> file.</li>
-<li>In the configuration file, add the following line:</li>
+<li>In your project folder, in the <code>themes</code> folder, create a folder named after the theme.</li>
+<li>Copy the extracted files into the theme folder you created.</li>
+<li>In the project folder, open the <code>config.toml</code> file.</li>
+<li>In the <code>config.toml</code> file, add the following line:</li>
 </ol>
-<pre><code>theme = &quot;{theme name}
+<pre><code>theme = &quot;{theme folder name}&quot;
 </code></pre><p><strong>Example:</strong></p>
 <pre><code>baseURL = &quot;http://example.org/&quot;
 languageCode = &quot;en-us&quot;
@@ -388,6 +416,8 @@ theme = &quot;book&quot;
 </ol>
 </li>
 </ol>
+<h2 id="theme-specific-features">Theme-specific features</h2>
+<p>Most themes provide custom shortcodes, partials, and configuration options. Information about those features is usually available on the theme&rsquo;s homepage or its <code>README.md</code> file.</p>
 </article>
  
       
@@ -423,6 +453,7 @@ theme = &quot;book&quot;
   <nav id="TableOfContents">
   <ul>
     <li><a href="#adding-a-theme">Adding a theme</a></li>
+    <li><a href="#theme-specific-features">Theme-specific features</a></li>
   </ul>
 </nav>
 

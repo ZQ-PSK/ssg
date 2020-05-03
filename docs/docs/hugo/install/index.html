@@ -4,19 +4,17 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Installing Hugo on Ubuntu Hugo offers a few installation methods. The method described in this procedure lets you control the version you are installing and installs it globally.
- Go to the Hugo releases page. Choose a release :  If you are preparing to create a new site, choose the latest release. If you are going to work with an existing site, on the list locate the same release that the site is deployed with.">
-<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="Installing Hugo" />
-<meta property="og:description" content="Installing Hugo on Ubuntu Hugo offers a few installation methods. The method described in this procedure lets you control the version you are installing and installs it globally.
- Go to the Hugo releases page. Choose a release :  If you are preparing to create a new site, choose the latest release. If you are going to work with an existing site, on the list locate the same release that the site is deployed with." />
+<meta name="description" content="Install Hugo in your system">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="Installation" />
+<meta property="og:description" content="Install Hugo in your system" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://zq-psk.github.io/ssg/docs/hugo/install/" />
 
-<title>Installing Hugo | Hugo on GitHub Pages</title>
+<title>Installation | Marcin Misiak - writing samples</title>
 <link rel="manifest" href="https://zq-psk.github.io/ssg/manifest.json">
 <link rel="icon" href="https://zq-psk.github.io/ssg/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="https://zq-psk.github.io/ssg/book.min.6df681b0bb21155cba49f6078e3559216772d8e03e780d240c73ea21817ed5e5.css" integrity="sha256-bfaBsLshFVy6SfYHjjVZIWdy2OA&#43;eA0kDHPqIYF&#43;1eU=">
-<script defer src="https://zq-psk.github.io/ssg/en.search.min.fabd8887d210a67a922eb1419b38647837522a6676c01052e78643df9fc0fd65.js" integrity="sha256-&#43;r2Ih9IQpnqSLrFBmzhkeDdSKmZ2wBBS54ZD35/A/WU="></script>
+<script defer src="https://zq-psk.github.io/ssg/en.search.min.b15fc096111e2b96c67e1a2fd214d09ff47f055a4bde41a13f1ab4ad3f40c49e.js" integrity="sha256-sV/AlhEeK5bGfhov0hTQn/R/BVpL3kGhPxq0rT9AxJ4="></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -32,7 +30,7 @@ https://github.com/alex-shpak/hugo-book
       
   <nav>
 <h2 class="book-brand">
-  <a href="https://zq-psk.github.io/ssg/"><span>Hugo on GitHub Pages</span>
+  <a href="https://zq-psk.github.io/ssg/"><span>Marcin Misiak - writing samples</span>
   </a>
 </h2>
 
@@ -84,7 +82,7 @@ https://github.com/alex-shpak/hugo-book
         <li>
           
   
-    <a href="https://zq-psk.github.io/ssg/docs/hugo/install/" class="active">Installing Hugo</a>
+    <a href="https://zq-psk.github.io/ssg/docs/hugo/install/" class="active">Installation</a>
   
 
         </li>
@@ -139,13 +137,7 @@ https://github.com/alex-shpak/hugo-book
         <li>
           
   
-    <a href="https://zq-psk.github.io/ssg/docs/hugo/articles/review/" class="">Reviewing the output</a>
-  
-
-        </li>
-      
-    
-  </ul>
+    <a href="https://zq-psk.github.io/ssg/docs/hugo/articles/enrich/" class="">Content enrichment</a>
   
 
         </li>
@@ -155,7 +147,13 @@ https://github.com/alex-shpak/hugo-book
         <li>
           
   
-    <a href="https://zq-psk.github.io/ssg/docs/hugo/config/" class="">Hugo configuration files</a>
+    <a href="https://zq-psk.github.io/ssg/docs/hugo/articles/review/" class="">Reviewing the output</a>
+  
+
+        </li>
+      
+    
+  </ul>
   
 
         </li>
@@ -253,6 +251,16 @@ https://github.com/alex-shpak/hugo-book
         </li>
       
     
+      
+        <li>
+          
+  
+    <a href="https://zq-psk.github.io/ssg/docs/deploy/troubleshooting/" class="">Troubleshooting GitHub Pages</a>
+  
+
+        </li>
+      
+    
   </ul>
   
 
@@ -303,6 +311,24 @@ https://github.com/alex-shpak/hugo-book
 
 
 
+  
+<ul>
+  
+  <li>
+    <a href="https://www.linkedin.com/in/marcin-misiak-70836aa4/" target="_blank" rel="noopener">
+        Author&#39;s profile
+      </a>
+  </li>
+  
+  <li>
+    <a href="https://github.com/ZQ-PSK/ssg" target="_blank" rel="noopener">
+        GitHub source
+      </a>
+  </li>
+  
+</ul>
+
+
 
 
 
@@ -326,7 +352,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="https://zq-psk.github.io/ssg/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>Installing Hugo</strong>
+  <strong>Installation</strong>
 
   <label for="toc-control">
     <img src="https://zq-psk.github.io/ssg/svg/toc.svg" class="book-icon" alt="Table of Contents" />
@@ -338,7 +364,11 @@ https://github.com/alex-shpak/hugo-book
     <input type="checkbox" class="hidden" id="toc-control" />
     <aside class="hidden clearfix">
       
-  <nav id="TableOfContents"></nav>
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#installing-hugo-on-ubuntu">Installing Hugo on Ubuntu</a></li>
+  </ul>
+</nav>
 
 
     </aside>
@@ -348,8 +378,10 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown"><h1 id="installing-hugo-on-ubuntu">Installing Hugo on Ubuntu</h1>
-<p>Hugo offers a few installation methods. The method described in this procedure lets you control the version you are installing and installs it globally.</p>
+  <article class="markdown"><h1 id="hugo-installation">Hugo Installation</h1>
+<p>Hugo offers a few installation methods. A complete list is available in the Hugo documentation.</p>
+<h2 id="installing-hugo-on-ubuntu">Installing Hugo on Ubuntu</h2>
+<p>This method requires the most manual work, but it gives you strict control over the installed version. This is beneficial if you want to update Hugo at your own pace, giving yourself time to resolve any issues caused by the introduction of features that break backwards compatibility.</p>
 <ol>
 <li>Go to the <a href="https://github.com/gohugoio/hugo/releases">Hugo releases page</a>.</li>
 <li>Choose a release :
@@ -360,7 +392,7 @@ https://github.com/alex-shpak/hugo-book
 </li>
 <li>In the <strong>Assets</strong> section of the release, locate the installation file for your operating system.
 <strong>Example</strong>: <code>hugo_extended_x.y.z_Linux-64bit.tar.gz</code> is compatible with 64-bit Ubuntu.
-NOTE: The extended version is required if you need to process SCSS or SASS files.</li>
+NOTE: The extended version is required if you need to process SCSS or SASS files. Most themes require this feature.</li>
 <li>Click the file.</li>
 <li>In the dialog window that opens, select the <strong>Save file</strong> radio button and click <strong>OK</strong>.</li>
 <li>In the file explorer, open the directory where the file was saved.</li>
@@ -369,19 +401,20 @@ The files are extracted to a new directory named after the <code>.tar.gz</code> 
 <li>Right-click the directory where the files were extracted and select <strong>Open in Terminal</strong>.<br>
 <strong>Result</strong>: A Terminal window opens, with the extracted directory set as the working directory.</li>
 <li>In the Terminal window that opens, enter <code>sudo mv hugo /usr/local/bin</code></li>
-<li>Enter your password.</li>
+<li>If prompted, enter your password.<br>
+<strong>Result</strong>: The Hugo application is moved into a location that makes it accessible system-wide.</li>
 <li>To verify that Hugo was installed globally, perform the following actions:
 <ol>
 <li>Enter <code>cd ~</code></li>
 <li>Enter <code>hugo version</code>
 <strong>Result</strong>: If Hugo was installed successfully, the output lists the version, for example:</li>
 </ol>
-</li>
-</ol>
 <pre><code>marcin@marcin-HP:~$ hugo version
 Hugo Static Site Generator v0.69.2-EC9DCF30/extended linux/amd64 BuildDate: 2020-04-24T07:57:53Z
 marcin@marcin-HP:~$ 
-</code></pre></article>
+</code></pre></li>
+</ol>
+</article>
  
       
 
@@ -413,7 +446,11 @@ marcin@marcin-HP:~$
     
     <aside class="book-toc">
       
-  <nav id="TableOfContents"></nav>
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#installing-hugo-on-ubuntu">Installing Hugo on Ubuntu</a></li>
+  </ul>
+</nav>
 
  
     </aside>

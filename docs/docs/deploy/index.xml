@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>GitHub Pages on Hugo on GitHub Pages</title>
+    <title>GitHub Pages on Marcin Misiak - writing samples</title>
     <link>https://zq-psk.github.io/ssg/docs/deploy/</link>
-    <description>Recent content in GitHub Pages on Hugo on GitHub Pages</description>
+    <description>Recent content in GitHub Pages on Marcin Misiak - writing samples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -16,8 +16,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://zq-psk.github.io/ssg/docs/deploy/prep/</guid>
-      <description>Configuring Hugo for GitHub Pages deployment Prerequisites Verify that separate configuration files for production and development are created. See this article
- In the root folder of your repository, open the production configuration file. In the configuration file, search for the publishDir setting. Perform one of the following actions:  If the setting exists, change its value to &amp;quot;docs&amp;quot; If the setting does not exist, create it by adding the following line to the file: publishDir = &amp;quot;docs&amp;quot;   If the relativeURLs value exists and is set to true, set it to false.</description>
+      <description>Configuring Hugo for GitHub Pages deployment  In the root folder of your repository, open the production configuration file. In the configuration file, search for the publishDir setting. Perform one of the following actions:  If the setting exists, change its value to &amp;quot;docs&amp;quot; If the setting does not exist, create it by adding the following line to the file: publishDir = &amp;quot;docs&amp;quot;   If the relativeURLs value exists and is set to true, set it to false.</description>
     </item>
     
     <item>
@@ -29,6 +28,20 @@
       <description>Site deployment Building the site  In the file explorer, open the root folder of your repository. If the docs folder exists, delete it.
 IMPORTANT: This does not apply to the content/docs/ folder. Right-click Enter hugo
 Result: The static site is built in the docs directory. Commit the changes in the docs directory. Perform one of the following actions:  If you are working on the &amp;ldquo;master&amp;rdquo; branch, push to &amp;ldquo;origin/master&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Troubleshooting GitHub Pages</title>
+      <link>https://zq-psk.github.io/ssg/docs/deploy/troubleshooting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://zq-psk.github.io/ssg/docs/deploy/troubleshooting/</guid>
+      <description>Troubleshooting GitHub Pages This is a list of issues which I encountered when deploying this site to GitHub pages.
+The solutions may not be the most effective or the only possible ones.
+Problem: styling is not applied to the site Solution:
+Verify that your config file includes these lines:
+canonifyURLs = true baseURL = &amp;quot;https://{your GitHub username}.github.io/{your repository name}/&amp;quot; Problem: relative links to articles do not work Solution:
+Verify that your config file includes these lines:</description>
     </item>
     
   </channel>
