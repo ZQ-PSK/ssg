@@ -29,7 +29,7 @@ NOTE: The extended version is required if you need to process SCSS or SASS files
 **Result:** The Hugo application is moved into a location that makes it accessible system-wide.
 3. To verify that Hugo was installed globally, perform the following actions:
    1. Enter `cd ~`
-   2. Enter `hugo version`
+   2. Enter `hugo version`  
    **Result:** If Hugo was installed successfully, the output lists the version, for example:  
    ```
    marcin@marcin-HP:~$ hugo version

@@ -18,6 +18,3 @@ Describes the basic concepts of Git and explains the first steps in GitHub, incl
 
 ## [GitHub Pages](/docs/deploy)
 Explains how to publish the Hugo-generate website using the free GitHub Pages service.
-
-## [VS Codium](/docs/vscodium)
-Optional reading. Provides information about VS Codium, an open-source IDE.

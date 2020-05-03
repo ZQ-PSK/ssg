@@ -32,6 +32,6 @@ baseURL = "https://{your GitHub username}.github.io/{your repository name}/"
    canonifyURLs = true
    baseURL = "https://{your GitHub username}.github.io/{your repository name}/"
    ```
-1. Store the images in a designated folder inside the `content` folder where your store your sources.
-2. Use absolute linking to images.  
+2. Store the images in a designated folder inside the `content` folder, next to the folder or folders where you store your Markdown sources.
+3. Use absolute linking to images.  
 **Example:** `![A fragment of a table of contents](/images/weightexample.png)  `
