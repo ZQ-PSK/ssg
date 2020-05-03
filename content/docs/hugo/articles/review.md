@@ -1,6 +1,6 @@
 ---
 title: "Reviewing the output"
-weight:
+weight: 15
 description: ""
 ---
 # Reviewing the output
@@ -10,14 +10,16 @@ Before publishing your site to GitHub Pages, you should review the output locall
 ## Hosting the preview
 
 1. Open the Terminal by pressing **`CTRL` + `ALT` + `T`**.
-2. Navigate to the root folder of your repository.
+2. Navigate to the project folder.
 3. Enter `hugo server`.  
-**Result**: The site is hosted locally on your system. By default, the site is available at [http://localhost:1313/](http://localhost:1313/). 
+**Result**: The site is hosted locally on your system.  
+By default, the site is available at [http://localhost:1313/](http://localhost:1313/). 
 If another site is running locally under port 1313, Hugo automatically selects a different port. You can find the current address in the output of the `hugo server` command:
    ```
    Web Server is available at http://localhost:45353/ (bind address 127.0.0.1)
    ```
-   If you already completed [configuration for GitHub pages](/docs/deploy/prep), the localhost URL includes your repository name, for example `http://localhost:1313/ssg/`.
+   **Note:** If you already completed [configuration for GitHub pages](/docs/deploy/prep), the localhost URL includes your repository name, for example `http://localhost:1313/ssg/`.
+7. To stop the local server, return to the Terminal and press **`CTRL` + `C`**.
 
 ## Review considerations
 
@@ -29,5 +31,6 @@ When reviewing content, pay special attention to:
 - line spacing (may be broken due to redundant line breaks)
 - non-working links
 
-The live preview served at `localhost` helps you to make corrections faster, but is not perfect.  
-If you make a change that should fix a problem and the output is still wrong, try restarting the preview.
+**IMPORTANT:** Markdown preview plugins for text editors may show different output than Hugo does. Do **not** use them for final reviews.
+
+The live preview served at `localhost` helps you to make corrections faster, but is not perfect. If you cannot see the changes you made, or the output is different than expected, you may need to restart the local preview.

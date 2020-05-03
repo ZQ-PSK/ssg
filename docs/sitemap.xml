@@ -23,6 +23,10 @@
   </url>
   
   <url>
+    <loc>https://zq-psk.github.io/ssg/docs/hugo/articles/enrich/</loc>
+  </url>
+  
+  <url>
     <loc>https://zq-psk.github.io/ssg/docs/deploy/deploy/</loc>
   </url>
   
@@ -43,6 +47,10 @@
   </url>
   
   <url>
+    <loc>https://zq-psk.github.io/ssg/docs/hugo/articles/review/</loc>
+  </url>
+  
+  <url>
     <loc>https://zq-psk.github.io/ssg/docs/hugo/themes/</loc>
   </url>
   
@@ -55,12 +63,7 @@
   </url>
   
   <url>
-    <loc>https://zq-psk.github.io/ssg/docs/hugo/config/</loc>
-  </url>
-  
-  <url>
-    <loc>https://zq-psk.github.io/ssg/</loc>
-    <priority>0</priority>
+    <loc>https://zq-psk.github.io/ssg/docs/deploy/troubleshooting/</loc>
   </url>
   
   <url>
@@ -76,7 +79,7 @@
   </url>
   
   <url>
-    <loc>https://zq-psk.github.io/ssg/docs/hugo/articles/review/</loc>
+    <loc>https://zq-psk.github.io/ssg/</loc>
   </url>
   
   <url>

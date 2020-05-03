@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Content on Hugo on GitHub Pages</title>
+    <title>Content on Marcin Misiak - writing samples</title>
     <link>https://zq-psk.github.io/ssg/docs/hugo/articles/</link>
-    <description>Recent content in Content on Hugo on GitHub Pages</description>
+    <description>Recent content in Content on Marcin Misiak - writing samples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -16,9 +16,22 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://zq-psk.github.io/ssg/docs/hugo/articles/add/</guid>
-      <description>Adding articles  Open the content/docs folder. Create a new Markdown file.
-The name of the file will be visible in the URL of the article. Open the new file with a text editor. At the beginning of the file, add the following metadata:  title (string) weight (integer) description (string) optional: other metadata that your site uses    Example:
---- title: &amp;quot;Content&amp;quot; weight: 20 description: &amp;quot;Short description&amp;quot; customParam: &amp;quot;string&amp;quot; customArrayParam: - &amp;quot;string&amp;quot; - &amp;quot;string&amp;quot; --- After the metadata block, add the Markdown content.</description>
+      <description>Adding articles  In the project folder, open the content folder.
+By default, the folder is content. The &amp;ldquo;book&amp;rdquo; theme uses the content/docs folder. Create a new Markdown file in the location where you want to add an article.
+For more information on content organization, read this article. Open the new file with a text editor. At the beginning of the file, add the following metadata:  title (string) weight (integer) description (string) optional: other metadata that your site uses    Example:</description>
+    </item>
+    
+    <item>
+      <title>Content enrichment</title>
+      <link>https://zq-psk.github.io/ssg/docs/hugo/articles/enrich/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://zq-psk.github.io/ssg/docs/hugo/articles/enrich/</guid>
+      <description>Content enrichment You can enrich your content by using shortcodes or inserting HTML into the Markdown file.
+Shortcodes Hugo offers a number of built-in shortcodes. Themes usually add additional shortcodes you can use. You can also create your own.
+Shortcodes are processed when the Markdown sources are parsed into HTML.
+A full list of the built-in shortcodes is available in the Hugo documentation.
+The shortcodes added by a theme are usually described in the theme&amp;rsquo;s README.</description>
     </item>
     
     <item>
@@ -28,8 +41,9 @@ The name of the file will be visible in the URL of the article. Open the new fil
       
       <guid>https://zq-psk.github.io/ssg/docs/hugo/articles/review/</guid>
       <description>Reviewing the output Before publishing your site to GitHub Pages, you should review the output locally. GitHub Pages do not provide an on-line staging environment and the static site pushed to &amp;ldquo;origin/master&amp;rdquo; is published immediately.
-Hosting the preview  Open the Terminal by pressing CTRL + ALT + T. Navigate to the root folder of your repository. Enter hugo server.
-Result: The site is hosted locally on your system. By default, the site is available at http://localhost:1313/.</description>
+Hosting the preview  Open the Terminal by pressing CTRL + ALT + T. Navigate to the project folder. Enter hugo server.
+Result: The site is hosted locally on your system.
+By default, the site is available at http://localhost:1313/.</description>
     </item>
     
   </channel>
