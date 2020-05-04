@@ -17,4 +17,4 @@ Instructions for creating a website with Hugo, an open-source static site genera
 Describes the basic concepts of Git and explains the first steps in GitHub, including account creation, authorization, and starting work with a repository.
 
 ## [GitHub Pages](/docs/deploy)
-Explains how to publish the Hugo-generate website using the free GitHub Pages service.
+Explains how to publish the Hugo-generated website using the free GitHub Pages service.
