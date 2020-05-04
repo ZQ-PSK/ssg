@@ -26,7 +26,7 @@ You can create local branches and never push them to origin. This can be useful 
 #### Origin
 The *origin* branches are the branches stored in the original remote repository (in the case of this site, the remote repository is stored in the GitHub cloud service).
 #### Local
-When you want to work on a your computer, you create a local counterpart of an origin branch. Changes made on local branches must be *pushed* to the origin counterparts of those branches. If you do not do that, the changes remain visible only on your hard drive.
+When you want to work on a project on your own computer, you create a local counterpart of an origin branch. Changes made on local branches must be *pushed* to the origin counterparts of those branches. If you do not do that, the changes remain visible only on your hard drive.
 
 It is also possible to create a local branch first and then push it to the remote repository, creating an origin branch in the process.
 #### Cloning
