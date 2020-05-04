@@ -32,7 +32,7 @@ It is also possible to create a local branch first and then push it to the remot
 #### Cloning
 The operation that downloads a repository from the cloud to your local drive so you can work with the files on your own computer before pushing them to origin.
 #### Checkout
-When you check out a branch, you set it as your current working branch.
+When you check out a branch, you set it as your current working branch. Such a branch can also be called the active branch. Commits, pushes, and other operations are performed on the active branch.
 
 Checking out can also be used to create a new local branch.
 #### Commit
