@@ -40,7 +40,7 @@
 The solutions may not be the most effective or the only possible ones.
 Problem: styling is not applied to the site Solution:
 Verify that your config file includes these lines:
-canonifyURLs = true baseURL = &amp;quot;https://{your GitHub username}.github.io/{your repository name}/&amp;quot; Problem: relative links to articles do not work Solution:
+canonifyURLs = truebaseURL = &amp;quot;https://{your GitHub username}.github.io/{your repository name}/&amp;quot;Problem: relative links to articles do not work Solution:
 Verify that your config file includes these lines:</description>
     </item>
     
