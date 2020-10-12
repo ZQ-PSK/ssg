@@ -6,15 +6,6 @@ url: blog-sample
 ---
 # User authentication and authorization
 
-<!-- SUBJECT
-Produce technical blog post "User authentication journey". Try to cover the following concepts:
-- Authentication as authorization
-- How policies and authentication events are used to drive authentication journey for the user
-- Continuous risk-based authentication
-- Challenges that the user can encounter while a fully authenticated policy is verified
-- Sample fully authenticated policy diagram showcasing challenges for certain criteria e.g. if the
-user has MFA -->
-
 Users who interact with your services need a way to secure their actions and ensure that no third party accesses their personal data without consent.  
 This can be achieved in a number of ways, and different levels of security can be applied to different kinds of operations.
 
