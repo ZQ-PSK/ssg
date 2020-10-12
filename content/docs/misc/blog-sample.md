@@ -1,6 +1,6 @@
 ---
 title: "User authentication journey"
-weight: 20
+weight: 5
 description: "User authentication journey"
 url: blog-sample
 ---
