@@ -9,6 +9,8 @@ baseURL = "https://zq-psk.github.io/ssg/"
     [markup.goldmark]
         [markup.goldmark.renderer]
             unsafe = true
+    [markup.tableOfContents]
+      startlevel = 1
 [params]
     BookRepo = 'https://github.com/ZQ-PSK/ssg'
 
