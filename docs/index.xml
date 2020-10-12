@@ -54,6 +54,18 @@ Installing Hugo on Ubuntu This method requires the most manual work, but it give
     </item>
     
     <item>
+      <title>User authentication journey</title>
+      <link>https://zq-psk.github.io/ssg/blog-sample/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://zq-psk.github.io/ssg/blog-sample/</guid>
+      <description>User authentication and authorization Users who interact with your services need a way to secure their actions and ensure that no third party accesses their personal data without consent.
+This can be achieved in a number of ways, and different levels of security can be applied to different kinds of operations.
+Authentication and authorization are sometimes treated as synonyms. However, they are two very different concepts.
+Authentication Answers the question who is that user?</description>
+    </item>
+    
+    <item>
       <title>Content enrichment</title>
       <link>https://zq-psk.github.io/ssg/docs/hugo/articles/enrich/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -131,18 +143,6 @@ By default, the site is available at http://localhost:1313/.</description>
       <description>Themes To give your website a graphical layout, you must add a theme.
 You can also create your own theme from scratch. This requires knowledge of HTML, CSS, JS, and Hugo templating.
 Adding a theme This procedure explains how to download a theme and use it without connection to the theme&amp;rsquo;s original repository. This allows you to easily introduce your own modifications or update the theme at your own pace.</description>
-    </item>
-    
-    <item>
-      <title>User authentication journey</title>
-      <link>https://zq-psk.github.io/ssg/blog-sample/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://zq-psk.github.io/ssg/blog-sample/</guid>
-      <description>User authentication and authorization Users who interact with your services need a way to secure their actions and ensure that no third party accesses their personal data without consent.
-This can be achieved in a number of ways, and different levels of security can be applied to different kinds of operations.
-Authentication and authorization are sometimes treated as synonyms. However, they are two very different concepts:
-Authentication Answers the question who is that user?</description>
     </item>
     
     <item>

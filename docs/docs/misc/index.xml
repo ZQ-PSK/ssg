@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Other samples on Marcin Misiak on GitHub Pages</title>
+    <link>https://zq-psk.github.io/ssg/docs/misc/</link>
+    <description>Recent content in Other samples on Marcin Misiak on GitHub Pages</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://zq-psk.github.io/ssg/docs/misc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>User authentication journey</title>
+      <link>https://zq-psk.github.io/ssg/blog-sample/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://zq-psk.github.io/ssg/blog-sample/</guid>
+      <description>User authentication and authorization Users who interact with your services need a way to secure their actions and ensure that no third party accesses their personal data without consent.
+This can be achieved in a number of ways, and different levels of security can be applied to different kinds of operations.
+Authentication and authorization are sometimes treated as synonyms. However, they are two very different concepts.
+Authentication Answers the question who is that user?</description>
+    </item>
+    
+  </channel>
+</rss>

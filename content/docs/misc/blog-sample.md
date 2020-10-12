@@ -9,7 +9,7 @@ url: blog-sample
 Users who interact with your services need a way to secure their actions and ensure that no third party accesses their personal data without consent.  
 This can be achieved in a number of ways, and different levels of security can be applied to different kinds of operations.
 
-Authentication and authorization are sometimes treated as synonyms. However, they are two very different concepts:
+Authentication and authorization are sometimes treated as synonyms. However, they are two very different concepts.
 
 ### Authentication
 Answers the question *who is that user?*  
