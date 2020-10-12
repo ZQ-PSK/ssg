@@ -51,7 +51,7 @@ In this scenario, the users are only asked to provide identification details tha
 
 The following chart shows the same example, with MFA requested for new devices after a user provides their personal data:
 
-<figure><img src="/images/access-flow.png"/><figcaption style="text-align:center;font-size:0.8em;font-style:italic">Example access levels progress</figcaption></figure>
+<figure><img style="display:block;margin:auto" src="/images/access-flow.png"/><figcaption style="text-align:center;font-size:0.8em;font-style:italic">Example access levels progress</figcaption></figure>
 
 ## Challenges in authentication
 
