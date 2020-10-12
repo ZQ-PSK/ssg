@@ -28,7 +28,7 @@ Risk-based authentication makes use of algorithms that recognize non-typical act
 
 If an anomaly is detected, the policy may require that an action is blocked or confirmed through another channel. For example:
 - When a user tries to make a bank transfer from a country where they have never logged in before, the bank calls that user and asks for additional authentication details.
-- When a user logs in to their inbox from a new device, they receive a text message with a confirmation code.
+- When a user logs in to their inbox from a new device, they receive a text message with a confirmation code or generate the code in an authenticator app.
 
 The defense mechanism can also be adjusted for different roles - a regular user logging in from a new device is asked to provide a code, but a system administrator will have their account locked until another administrator confirms the identity.
 
