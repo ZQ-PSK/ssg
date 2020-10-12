@@ -23,6 +23,10 @@
   </url>
   
   <url>
+    <loc>https://zq-psk.github.io/ssg/blog-sample/</loc>
+  </url>
+  
+  <url>
     <loc>https://zq-psk.github.io/ssg/docs/hugo/articles/enrich/</loc>
   </url>
   
@@ -63,7 +67,7 @@
   </url>
   
   <url>
-    <loc>https://zq-psk.github.io/ssg/blog-sample/</loc>
+    <loc>https://zq-psk.github.io/ssg/docs/misc/</loc>
   </url>
   
   <url>

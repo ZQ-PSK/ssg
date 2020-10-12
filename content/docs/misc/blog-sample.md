@@ -1,6 +1,6 @@
 ---
 title: "User authentication journey"
-weight: 20
+weight: 5
 description: "User authentication journey"
 url: blog-sample
 ---
@@ -9,7 +9,7 @@ url: blog-sample
 Users who interact with your services need a way to secure their actions and ensure that no third party accesses their personal data without consent.  
 This can be achieved in a number of ways, and different levels of security can be applied to different kinds of operations.
 
-Authentication and authorization are sometimes treated as synonyms. However, they are two very different concepts:
+Authentication and authorization are sometimes treated as synonyms. However, they are two very different concepts.
 
 ### Authentication
 Answers the question *who is that user?*  
@@ -28,7 +28,7 @@ Risk-based authentication makes use of algorithms that recognize non-typical act
 
 If an anomaly is detected, the policy may require that an action is blocked or confirmed through another channel. For example:
 - When a user tries to make a bank transfer from a country where they have never logged in before, the bank calls that user and asks for additional authentication details.
-- When a user logs in to their inbox from a new device, they receive a text message with a confirmation code.
+- When a user logs in to their inbox from a new device, they receive a text message with a confirmation code or generate the code in an authenticator app.
 
 The defense mechanism can also be adjusted for different roles - a regular user logging in from a new device is asked to provide a code, but a system administrator will have their account locked until another administrator confirms the identity.
 
@@ -48,6 +48,10 @@ Consider an example of a newspaper portal that publishes two kinds of articles: 
 - A user who wants to buy a subscription must do both of the above, provide their personal details (such as their email and credit card data), and secure the account with multi-factor authentication (MFA).
 
 In this scenario, the users are only asked to provide identification details that are necessary for the scope of actions they want to perform. This improves the security of their personal details, creates less sensitive data for you to store, and improves user experience.
+
+The following chart shows the same example, with MFA requested for new devices after a user provides their personal data:
+
+<figure><img src="/images/access-flow.png"/><figcaption style="text-align:center;font-size:0.8em;font-style:italic">Example access levels progress</figcaption></figure>
 
 ## Challenges in authentication
 

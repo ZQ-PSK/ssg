@@ -14,7 +14,7 @@
 <link rel="manifest" href="https://zq-psk.github.io/ssg/manifest.json">
 <link rel="icon" href="https://zq-psk.github.io/ssg/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="https://zq-psk.github.io/ssg/book.min.8c76db3bb68fbda87cbc8c3089770b633d0ed8862fe4b7f5c755a0485b4d468a.css" integrity="sha256-jHbbO7aPvah8vIwwiXcLYz0O2IYv5Lf1x1WgSFtNRoo=">
-<script defer src="https://zq-psk.github.io/ssg/en.search.min.c8a3c0a0e97680d711ed1bca724ddfad59efc0e2d067bab9bf152488349636e6.js" integrity="sha256-yKPAoOl2gNcR7RvKck3frVnvwOLQZ7q5vxUkiDSWNuY="></script>
+<script defer src="https://zq-psk.github.io/ssg/en.search.min.8b942d8881df55e14afd4b180fb5f42af17425ce173e68388efc8444defdba1c.js" integrity="sha256-i5QtiIHfVeFK/UsYD7X0KvF0Jc4XPmg4jvyERN79uhw="></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -271,7 +271,28 @@ https://github.com/alex-shpak/hugo-book
         <li>
           
   
+    <a href="https://zq-psk.github.io/ssg/docs/misc/" class="">Other samples</a>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
     <a href="https://zq-psk.github.io/ssg/blog-sample/" class="active">User authentication journey</a>
+  
+
+        </li>
+      
+    
+  </ul>
   
 
         </li>
@@ -375,17 +396,9 @@ https://github.com/alex-shpak/hugo-book
       
       
   <article class="markdown"><h1 id="user-authentication-and-authorization">User authentication and authorization</h1>
-<!-- SUBJECT
-Produce technical blog post "User authentication journey". Try to cover the following concepts:
-- Authentication as authorization
-- How policies and authentication events are used to drive authentication journey for the user
-- Continuous risk-based authentication
-- Challenges that the user can encounter while a fully authenticated policy is verified
-- Sample fully authenticated policy diagram showcasing challenges for certain criteria e.g. if the
-user has MFA -->
 <p>Users who interact with your services need a way to secure their actions and ensure that no third party accesses their personal data without consent.<br>
 This can be achieved in a number of ways, and different levels of security can be applied to different kinds of operations.</p>
-<p>Authentication and authorization are sometimes treated as synonyms. However, they are two very different concepts:</p>
+<p>Authentication and authorization are sometimes treated as synonyms. However, they are two very different concepts.</p>
 <h3 id="authentication">Authentication</h3>
 <p>Answers the question <em>who is that user?</em><br>
 In user-oriented contexts, authenticating is usually called <em>logging in</em> or <em>signing in</em>.</p>
@@ -399,7 +412,7 @@ Users may belong to different access groups or have different roles assigned. Ea
 <p>If an anomaly is detected, the policy may require that an action is blocked or confirmed through another channel. For example:</p>
 <ul>
 <li>When a user tries to make a bank transfer from a country where they have never logged in before, the bank calls that user and asks for additional authentication details.</li>
-<li>When a user logs in to their inbox from a new device, they receive a text message with a confirmation code.</li>
+<li>When a user logs in to their inbox from a new device, they receive a text message with a confirmation code or generate the code in an authenticator app.</li>
 </ul>
 <p>The defense mechanism can also be adjusted for different roles - a regular user logging in from a new device is asked to provide a code, but a system administrator will have their account locked until another administrator confirms the identity.</p>
 <h2 id="user-authentication-progress">User authentication progress</h2>
@@ -418,6 +431,8 @@ Such a way of processing user data is at a higher risk of:</p>
 <li>A user who wants to buy a subscription must do both of the above, provide their personal details (such as their email and credit card data), and secure the account with multi-factor authentication (MFA).</li>
 </ul>
 <p>In this scenario, the users are only asked to provide identification details that are necessary for the scope of actions they want to perform. This improves the security of their personal details, creates less sensitive data for you to store, and improves user experience.</p>
+<p>The following chart shows the same example, with MFA requested for new devices after a user provides their personal data:</p>
+<figure><img src="https://zq-psk.github.io/ssg/images/access-flow.png"/><figcaption style="text-align:center;font-size:0.8em;font-style:italic">Example access levels progress</figcaption></figure>
 <h2 id="challenges-in-authentication">Challenges in authentication</h2>
 <h3 id="user-experience">User experience</h3>
 <p>Your users expect seamless and effortless work with the product.  Authentication may stand in the way of this, creating a conflict between user experience and user security.<br>
