@@ -49,6 +49,10 @@ Consider an example of a newspaper portal that publishes two kinds of articles: 
 
 In this scenario, the users are only asked to provide identification details that are necessary for the scope of actions they want to perform. This improves the security of their personal details, creates less sensitive data for you to store, and improves user experience.
 
+The following chart shows the same example, with MFA requested for new devices after a user provides their personal data:
+
+<figure><img src="/images/access-flow.png"/><figcaption style="text-align:center;font-size:0.8em;font-style:italic">Example access levels progress</figcaption></figure>
+
 ## Challenges in authentication
 
 ### User experience
