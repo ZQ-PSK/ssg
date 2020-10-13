@@ -14,7 +14,7 @@
 <link rel="manifest" href="https://zq-psk.github.io/ssg/manifest.json">
 <link rel="icon" href="https://zq-psk.github.io/ssg/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="https://zq-psk.github.io/ssg/book.min.8c76db3bb68fbda87cbc8c3089770b633d0ed8862fe4b7f5c755a0485b4d468a.css" integrity="sha256-jHbbO7aPvah8vIwwiXcLYz0O2IYv5Lf1x1WgSFtNRoo=">
-<script defer src="https://zq-psk.github.io/ssg/en.search.min.8b942d8881df55e14afd4b180fb5f42af17425ce173e68388efc8444defdba1c.js" integrity="sha256-i5QtiIHfVeFK/UsYD7X0KvF0Jc4XPmg4jvyERN79uhw="></script>
+<script defer src="https://zq-psk.github.io/ssg/en.search.min.3ceb672b3427097c2ec10f92a6e51682aa4cf5db6964635d9da4f9955405506a.js" integrity="sha256-POtnKzQnCXwuwQ&#43;SpuUWgqpM9dtpZGNdnaT5lVQFUGo="></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -396,7 +396,7 @@ https://github.com/alex-shpak/hugo-book
       
       
   <article class="markdown"><h1 id="user-authentication-and-authorization">User authentication and authorization</h1>
-<p>Users who interact with your services need a way to secure their actions and ensure that no third party accesses their personal data without consent.<br>
+<p>Users who interact with your services need a way to secure their actions and ensure that no third party accesses their personal data without consent. 
 This can be achieved in a number of ways, and different levels of security can be applied to different kinds of operations.</p>
 <p>Authentication and authorization are sometimes treated as synonyms. However, they are two very different concepts.</p>
 <h3 id="authentication">Authentication</h3>
@@ -407,47 +407,48 @@ In user-oriented contexts, authenticating is usually called <em>logging in</em> 
 Users may belong to different access groups or have different roles assigned. Each role or group has different <em>permissions</em> that manage what operations the user is allowed to perform.</p>
 <p>A user must authenticate before they are authorized to act. Some levels of authorization require additional authentication.</p>
 <h2 id="risk-based-authentication">Risk-based authentication</h2>
-<p>With the emergence of powerful cloud computing, it became possible to analyze user behavior in minute detail. This enables authentication based not only on logins and passwords, but also behavior patterns.</p>
+<p>With the emergence of powerful cloud computing, it became possible to analyze user behavior in minute detail. This enables authentication based not only on user names and passwords but also on behavior patterns.</p>
 <p>Risk-based authentication makes use of algorithms that recognize non-typical actions from the user, such as logging in from another device, another country, or even interacting with the UI in an unusual way.</p>
 <p>If an anomaly is detected, the policy may require that an action is blocked or confirmed through another channel. For example:</p>
 <ul>
 <li>When a user tries to make a bank transfer from a country where they have never logged in before, the bank calls that user and asks for additional authentication details.</li>
 <li>When a user logs in to their inbox from a new device, they receive a text message with a confirmation code or generate the code in an authenticator app.</li>
 </ul>
-<p>The defense mechanism can also be adjusted for different roles - a regular user logging in from a new device is asked to provide a code, but a system administrator will have their account locked until another administrator confirms the identity.</p>
+<p>The defense mechanism can also be adjusted for different roles. A regular user logging in from a new device is asked to provide a code, but a system administrator will have their account locked until another administrator confirms the identity.</p>
 <h2 id="user-authentication-progress">User authentication progress</h2>
 <p>In a traditional approach, a user provides a large amount of data upon registration: name, surname, date of birth, and so on. That data is very often collected even when there is no use for it.<br>
-Such a way of processing user data is at a higher risk of:</p>
+Such a way of processing user data is at a higher likelihood of:</p>
 <ul>
-<li>breaching data protection laws by excessive collection,</li>
-<li>leaking a set of data that provides all information needed, for example, for spear-phishing attacks,</li>
-<li>discouraging the user from proceeding.</li>
+<li>Breaching data protection laws by excessive collection</li>
+<li>Leaking a set of data that provides all information needed, for example, for spear-phishing attacks</li>
+<li>Identity theft</li>
+<li>Discouraging the user from proceeding</li>
 </ul>
-<p>To mitigate this, users should only be asked to provide the data that is needed, when it&rsquo;s needed, and be allowed to decide how long the data can be stored.</p>
+<p>To mitigate the risk, users should only be asked to provide the data that is needed, when it&rsquo;s needed, and be allowed to decide how long the data can be stored.</p>
 <p>Consider an example of a newspaper portal that publishes two kinds of articles: free to access (with a monthly limit) and those limited to paying users. The following progressive authentication policy could be applied:</p>
 <ul>
-<li>A user who wants to read free articles only needs to agree to a cookie that stores their UUID (used to keep track of how many articles the user read in the last 30 days).</li>
-<li>A user who wants to comment on articles must do the above, create a login, and create a password-protected account.</li>
-<li>A user who wants to buy a subscription must do both of the above, provide their personal details (such as their email and credit card data), and secure the account with multi-factor authentication (MFA).</li>
+<li>A user who wants to read free articles only needs to agree to a cookie that stores their UUID, which is used to keep track of how many articles the user read in the last 30 days</li>
+<li>A user who wants to comment on articles must do the above, create a login, and create a password-protected account</li>
+<li>A user who wants to buy a subscription must do both of the above, provide their personal details, such as their email and credit card data, and secure the account with multi-factor authentication (MFA)</li>
 </ul>
 <p>In this scenario, the users are only asked to provide identification details that are necessary for the scope of actions they want to perform. This improves the security of their personal details, creates less sensitive data for you to store, and improves user experience.</p>
 <p>The following chart shows the same example, with MFA requested for new devices after a user provides their personal data:</p>
 <figure><img style="display:block;margin:auto" src="https://zq-psk.github.io/ssg/images/access-flow.png"/><figcaption style="text-align:center;font-size:0.8em;font-style:italic">Example access levels progress</figcaption></figure>
 <h2 id="challenges-in-authentication">Challenges in authentication</h2>
 <h3 id="user-experience">User experience</h3>
-<p>Your users expect seamless and effortless work with the product.  Authentication may stand in the way of this, creating a conflict between user experience and user security.<br>
-This could cause users to disable or ignore some security policies and make data vulnerable to attacks.</p>
+<p>Your users expect seamless and effortless interactions with the product. Authentication may stand in the way, creating a conflict between user experience and user security.<br>
+As a result, users may disable or ignore some security policies, making data vulnerable to attacks.</p>
 <p>Some challenges that users may encounter include:</p>
 <ul>
-<li>frequent password change requirements,</li>
-<li>MFA reliant on a device that can be damaged, lost, or stolen,</li>
-<li>frequent login prompts,</li>
-<li>latency</li>
+<li>Frequent password change requirements</li>
+<li>MFA reliant on a device that can be damaged, lost, or stolen</li>
+<li>Frequent login prompts</li>
+<li>Latency</li>
 </ul>
 <h3 id="technology">Technology</h3>
 <p>Passwords and codes are not the only ways of authenticating users.</p>
 <p>A person can also be identified by scanning their face, fingerprints, or recognizing their voice. These techniques are becoming standard in consumer devices, but are not perfect and can be circumvented.</p>
-<p>For example, a fingerprint scanner can be &ldquo;tricked&rdquo; with a silicone mold, or a photograph can be used instead of an actual face.</p>
+<p>For example, a fingerprint scanner can be &ldquo;tricked&rdquo; with a silicone mold, or a photograph can be used instead of a face for unlocking a mobile device.</p>
 </article>
  
       
